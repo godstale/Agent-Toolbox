@@ -6,28 +6,37 @@
     "pages_url": "https://godstale.github.io/Agent-Toolbox/",
     "blog_url": "https://godstale.mycafe24.com/",
     "hub_post_url": "https://godstale.mycafe24.com/?p=1115",
-    "updated_at": "2026-11-22"
+    "updated_at": "2026-11-22",
+    "subtitle_en": "Curated Directory of AI Agent Open Source, Skills, MCP Servers, Apps & Tools"
   },
   "trends": [
     {
       "title": "빅테크의 에이전트 실무 도구 직접 공개",
       "summary": "구글 크롬(modern-web-guidance-src), OpenAI(codex-security), 메타(astryx), NVIDIA(SkillEvaluator·Auto-Ontology) 등 빅테크가 코딩 에이전트 전용 스킬과 CLI를 오픈소스로 공개하는 흐름이 본격화되었습니다.",
-      "related_url": "https://godstale.mycafe24.com/?p=1168"
+      "related_url": "https://godstale.mycafe24.com/?p=1168",
+      "title_en": "Big Tech Releasing Agent-Native Tools Directly",
+      "summary_en": "Google Chrome (modern-web-guidance-src), OpenAI (codex-security), Meta (astryx), and NVIDIA (SkillEvaluator & Auto-Ontology) are increasingly releasing official open-source skills and CLIs built specifically for coding agents."
     },
     {
       "title": "멀티 에이전트 병렬 실행과 워크트리 오케스트레이션",
       "summary": "단일 세션 대신 Git Worktree로 작업 폴더를 분리해 Claude Code·Codex를 동시에 지휘하는 Paseo, Worktrunk, ECC, OpenRig, Harness² 같은 실행 환경이 주목받고 있습니다.",
-      "related_url": "https://godstale.mycafe24.com/?p=1163"
+      "related_url": "https://godstale.mycafe24.com/?p=1163",
+      "title_en": "Parallel Multi-Agent Execution & Worktree Orchestration",
+      "summary_en": "Instead of running a single agent session, workspaces and CLIs like Paseo, Worktrunk, ECC, OpenRig, and Harness² isolate parallel Claude Code and Codex tasks in separate Git worktrees."
     },
     {
       "title": "AI 티를 없애는 디자인 시스템 & 코드형 모션그래픽",
       "summary": "impeccable, taste-skill, ui-ux-pro-max, hallmark처럼 디자인 품질을 높이는 스킬과 HyperFrames, Remotion, 리틱체 등 코드로 영상을 렌더링하는 워크플로우가 확산 중입니다.",
-      "related_url": "https://godstale.mycafe24.com/?p=1167"
+      "related_url": "https://godstale.mycafe24.com/?p=1167",
+      "title_en": "Anti-Slop Design Systems & Code-Driven Motion Graphics",
+      "summary_en": "Design skills like impeccable, taste-skill, ui-ux-pro-max, and hallmark raise frontend quality, while HyperFrames, Remotion, and REATIC Font power deterministic code-to-video workflows."
     },
     {
       "title": "게임 개발·스프라이트 제작 오픈소스 파이프라인",
       "summary": "pixelfx, sprite-gen, PerfectPixel Studio, Agent Sprite Forge, Codixel, Pixelbolt 등 2D 게임 리소스와 애니메이션을 에이전트로 자동 생성·정렬하는 도구 생태계가 빠르게 성장하고 있습니다.",
-      "related_url": "https://godstale.mycafe24.com/?p=1172"
+      "related_url": "https://godstale.mycafe24.com/?p=1172",
+      "title_en": "Open-Source Game Dev & Sprite Asset Pipelines",
+      "summary_en": "Tools like pixelfx, sprite-gen, PerfectPixel Studio, Agent Sprite Forge, Codixel, and Pixelbolt form a fast-growing pipeline for generating and cleaning 2D game sprites and VFX with agents."
     }
   ],
   "categories": [
@@ -36,49 +45,56 @@
       "icon": "💻",
       "name": "IT · 코딩 & 개발 워크플로우",
       "en_name": "Coding & Dev Workflows",
-      "summary": "코딩 에이전트 스킬, 멀티 에이전트 오케스트레이션·하네스, 코드 리뷰·지식 그래프, 테스트·CLI 및 백엔드 개발 도구"
+      "summary": "코딩 에이전트 스킬, 멀티 에이전트 오케스트레이션·하네스, 코드 리뷰·지식 그래프, 테스트·CLI 및 백엔드 개발 도구",
+      "summary_en": "Coding agent skills, multi-agent orchestration & harnesses, code review & knowledge graphs, browser/desktop automation, and dev CLIs"
     },
     {
       "id": "02-productivity-and-business",
       "icon": "⚡",
       "name": "생산성 · 협업 & 비즈니스",
       "en_name": "Productivity, Collaboration & Business",
-      "summary": "업무·문서 자동화, 에이전트 메모리·위키, 회의 요약, 마케팅·SEO, 금융·가계부, 구직 및 스마트홈 연동"
+      "summary": "업무·문서 자동화, 에이전트 메모리·위키, 회의 요약, 마케팅·SEO, 금융·가계부, 구직 및 스마트홈 연동",
+      "summary_en": "Office & document automation, agent memory & wikis, meeting notes, web research, marketing/SEO, personal finance, and smart home"
     },
     {
       "id": "03-media-and-creative",
       "icon": "🎨",
       "name": "미디어 · 디자인 & 크리에이티브",
       "en_name": "Media, Design & Creative",
-      "summary": "AI 영상·모션그래픽, 음성(TTS/STT)·작곡, 이미지·3D·CAD 생성, UI/UX Anti-Slop 디자인 스킬 및 웹 그래픽스"
+      "summary": "AI 영상·모션그래픽, 음성(TTS/STT)·작곡, 이미지·3D·CAD 생성, UI/UX Anti-Slop 디자인 스킬 및 웹 그래픽스",
+      "summary_en": "AI video & motion graphics, voice (TTS/STT) & music, image/3D/CAD generation, web graphics, and anti-slop UI/UX design skills"
     },
     {
       "id": "04-game-dev",
       "icon": "🎮",
       "name": "게임 개발 & 에셋 제작",
       "en_name": "Game Dev & Assets",
-      "summary": "Godot·Bevy 등 게임 엔진 에이전트 스킬, 스프라이트 시트·도트 애니메이션 생성기, 픽셀 이펙트, 무료 에셋"
+      "summary": "Godot·Bevy 등 게임 엔진 에이전트 스킬, 스프라이트 시트·도트 애니메이션 생성기, 픽셀 이펙트, 무료 에셋",
+      "summary_en": "Godot & Bevy agent skills, 2D sprite sheet & pixel-art animation generators, pixel VFX libraries, and free game assets"
     },
     {
       "id": "05-education-and-research",
       "icon": "📚",
       "name": "교육 · 학습 & 연구",
       "en_name": "Education, Learning & Research",
-      "summary": "오픈 AI 커리큘럼, 개인 튜터·AI 교실, 학술 논문·과학 연구 스킬, 학습 보조 스킬 및 프롬프트 레퍼런스"
+      "summary": "오픈 AI 커리큘럼, 개인 튜터·AI 교실, 학술 논문·과학 연구 스킬, 학습 보조 스킬 및 프롬프트 레퍼런스",
+      "summary_en": "Open AI curricula, personal AI tutors & classrooms, academic paper & scientific research pipelines, and prompt references"
     },
     {
       "id": "06-local-ai-and-infra",
       "icon": "🖥️",
       "name": "로컬 AI · 모델 서빙 & 인프라",
       "en_name": "Local AI, Serving & Infrastructure",
-      "summary": "로컬 LLM 추론·파인튜닝 엔진, LLM 게이트웨이, 초경량 온디바이스 모델, 문서 파싱/OCR, 에이전트 샌드박스"
+      "summary": "로컬 LLM 추론·파인튜닝 엔진, LLM 게이트웨이, 초경량 온디바이스 모델, 문서 파싱/OCR, 에이전트 샌드박스",
+      "summary_en": "Local LLM inference & fine-tuning engines, LLM gateways, ultra-light edge models, document parsing/OCR, and agent sandboxes"
     },
     {
       "id": "07-security-and-osint",
       "icon": "🛡️",
       "name": "보안 · 역공학 & OSINT",
       "en_name": "Security, Reverse Engineering & OSINT",
-      "summary": "보안 감사 스킬·CLI, 스킬 악성코드 스캐너, 리버스 엔지니어링·클린룸 분석, OSINT 점검 및 통합 인증"
+      "summary": "보안 감사 스킬·CLI, 스킬 악성코드 스캐너, 리버스 엔지니어링·클린룸 분석, OSINT 점검 및 통합 인증",
+      "summary_en": "Security audit skills & CLIs, skill malware scanners, reverse engineering & clean-room analysis, OSINT, and self-hosted auth"
     }
   ],
   "tools": [
@@ -89,8 +105,15 @@
       "category": "01-coding-and-dev",
       "subcategory": "코딩 에이전트 스킬",
       "type": "Skill",
-      "tags": ["Claude Code", "TDD", "Workflow", "Code Review"],
-      "wp_url": "https://godstale.mycafe24.com/?p=801"
+      "tags": [
+        "Claude Code",
+        "TDD",
+        "Workflow",
+        "Code Review"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=801",
+      "subcategory_en": "Coding Agent Skills",
+      "description_en": "Structured coding workflow skills covering spec verification, planning, TDD, and two-stage code review (pick only the sub-skills you need)."
     },
     {
       "name": "Matt Pocock Skills (Grill-me 포함)",
@@ -99,8 +122,16 @@
       "category": "01-coding-and-dev",
       "subcategory": "코딩 에이전트 스킬",
       "type": "Skill",
-      "tags": ["Claude Code", "Grill-me", "Retro", "Planning"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1136"
+      "tags": [
+        "Claude Code",
+        "Grill-me",
+        "Retro",
+        "Planning"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1136",
+      "name_en": "Matt Pocock Skills (incl. Grill-me)",
+      "subcategory_en": "Coding Agent Skills",
+      "description_en": "Practical AI coding skills by Matt Pocock, including interview-style design critique (Grill-me) and session retrospectives (/retro)."
     },
     {
       "name": "addyosmani/agent-skills",
@@ -109,8 +140,14 @@
       "category": "01-coding-and-dev",
       "subcategory": "코딩 에이전트 스킬",
       "type": "Skill",
-      "tags": ["Spec", "Workflow", "Agent Skills"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1136"
+      "tags": [
+        "Spec",
+        "Workflow",
+        "Agent Skills"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1136",
+      "subcategory_en": "Coding Agent Skills",
+      "description_en": "Production-grade coding agent skills by Addy Osmani covering spec, plan, build, test, review, simplify, and ship stages."
     },
     {
       "name": "pstack (Lauren Tan)",
@@ -119,8 +156,14 @@
       "category": "01-coding-and-dev",
       "subcategory": "코딩 에이전트 스킬",
       "type": "Skill",
-      "tags": ["Cursor", "Claude Code", "Workflow"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1136"
+      "tags": [
+        "Cursor",
+        "Claude Code",
+        "Workflow"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1136",
+      "subcategory_en": "Coding Agent Skills",
+      "description_en": "Practical coding agent plugin and skill suite by Lauren Tan for structured implementation and verification loops."
     },
     {
       "name": "Andrej Karpathy Skills",
@@ -129,8 +172,14 @@
       "category": "01-coding-and-dev",
       "subcategory": "코딩 에이전트 스킬",
       "type": "Skill",
-      "tags": ["Claude Code", "Clean Code", "Token Optimization"],
-      "wp_url": "https://godstale.mycafe24.com/?p=801"
+      "tags": [
+        "Claude Code",
+        "Clean Code",
+        "Token Optimization"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=801",
+      "subcategory_en": "Coding Agent Skills",
+      "description_en": "Coding efficiency skills inspired by Andrej Karpathy to prevent code bloat and unnecessary edits to surrounding files."
     },
     {
       "name": "Ponytail",
@@ -139,7 +188,12 @@
       "category": "01-coding-and-dev",
       "subcategory": "코딩 에이전트 스킬",
       "type": "Skill",
-      "tags": ["Token Optimization", "Minimalism"]
+      "tags": [
+        "Token Optimization",
+        "Minimalism"
+      ],
+      "subcategory_en": "Coding Agent Skills",
+      "description_en": "Concise senior-developer style coding skill focused on saving tokens and avoiding over-engineered code."
     },
     {
       "name": "unclebob/ub-mode",
@@ -148,7 +202,12 @@
       "category": "01-coding-and-dev",
       "subcategory": "코딩 에이전트 스킬",
       "type": "Skill",
-      "tags": ["Clean Code", "TDD"]
+      "tags": [
+        "Clean Code",
+        "TDD"
+      ],
+      "subcategory_en": "Coding Agent Skills",
+      "description_en": "Agent skill applying Robert C. Martin's (Uncle Bob) Clean Code discipline and TDD workflow."
     },
     {
       "name": "GoogleChrome/modern-web-guidance-src",
@@ -157,8 +216,16 @@
       "category": "01-coding-and-dev",
       "subcategory": "플랫폼·프레임워크 공식 스킬",
       "type": "Skill",
-      "tags": ["Google", "Web", "HTML", "CSS", "CLI"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1168"
+      "tags": [
+        "Google",
+        "Web",
+        "HTML",
+        "CSS",
+        "CLI"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1168",
+      "subcategory_en": "Official Platform & Framework Skills",
+      "description_en": "Official Google Chrome skill and CLI guiding coding agents to use modern HTML, CSS, native browser APIs, and Baseline standards."
     },
     {
       "name": "anthropics/skills (Skill Creator 포함)",
@@ -167,8 +234,15 @@
       "category": "01-coding-and-dev",
       "subcategory": "플랫폼·프레임워크 공식 스킬",
       "type": "Skill",
-      "tags": ["Anthropic", "Official", "Skill Creator"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1168"
+      "tags": [
+        "Anthropic",
+        "Official",
+        "Skill Creator"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1168",
+      "name_en": "anthropics/skills (incl. Skill Creator)",
+      "subcategory_en": "Official Platform & Framework Skills",
+      "description_en": "Official Anthropic agent skills repository, including document workflows (pptx, xlsx) and Skill Creator for building and evaluating skills."
     },
     {
       "name": "Supabase Agent Skills",
@@ -177,7 +251,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "플랫폼·프레임워크 공식 스킬",
       "type": "Skill",
-      "tags": ["Supabase", "Database", "Backend"]
+      "tags": [
+        "Supabase",
+        "Database",
+        "Backend"
+      ],
+      "subcategory_en": "Official Platform & Framework Skills",
+      "description_en": "Official skills teaching coding agents how to manage Supabase databases, authentication, and migrations."
     },
     {
       "name": "Vercel Agent Skills",
@@ -186,7 +266,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "플랫폼·프레임워크 공식 스킬",
       "type": "Skill",
-      "tags": ["Vercel", "Next.js", "React"]
+      "tags": [
+        "Vercel",
+        "Next.js",
+        "React"
+      ],
+      "subcategory_en": "Official Platform & Framework Skills",
+      "description_en": "Official Vercel Labs skills for Next.js, React Server Components, and deployment best practices."
     },
     {
       "name": "Google Cloud Skills (google/skills)",
@@ -195,7 +281,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "플랫폼·프레임워크 공식 스킬",
       "type": "Skill",
-      "tags": ["Google Cloud", "GCP", "Cloud"]
+      "tags": [
+        "Google Cloud",
+        "GCP",
+        "Cloud"
+      ],
+      "subcategory_en": "Official Platform & Framework Skills",
+      "description_en": "Official Google repository packing 100+ agent skills for working with Google Cloud Platform (GCP) services."
     },
     {
       "name": "android/skills",
@@ -204,7 +296,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "플랫폼·프레임워크 공식 스킬",
       "type": "Skill",
-      "tags": ["Android", "Kotlin", "Mobile"]
+      "tags": [
+        "Android",
+        "Kotlin",
+        "Mobile"
+      ],
+      "subcategory_en": "Official Platform & Framework Skills",
+      "description_en": "Official Google agent skills for Android development including CameraX and Jetpack Compose."
     },
     {
       "name": "affaan-m/ECC (Everything Claude Code)",
@@ -213,7 +311,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "멀티 에이전트 오케스트레이션 & 하네스",
       "type": "Framework/Harness",
-      "tags": ["Harness", "Claude Code", "Multi-Agent"]
+      "tags": [
+        "Harness",
+        "Claude Code",
+        "Multi-Agent"
+      ],
+      "subcategory_en": "Multi-Agent Orchestration & Harnesses",
+      "description_en": "Large-scale agent harness bundling specialized sub-agents (planning, review, security), hooks, and hundreds of workflow skills."
     },
     {
       "name": "Paseo",
@@ -222,8 +326,15 @@
       "category": "01-coding-and-dev",
       "subcategory": "멀티 에이전트 오케스트레이션 & 하네스",
       "type": "App",
-      "tags": ["Worktree", "Multi-Agent", "Mobile", "Orchestration"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1163"
+      "tags": [
+        "Worktree",
+        "Multi-Agent",
+        "Mobile",
+        "Orchestration"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1163",
+      "subcategory_en": "Multi-Agent Orchestration & Harnesses",
+      "description_en": "Multi-agent workspace running Claude Code, Codex, and other agents in parallel isolated Git worktrees with web and mobile control."
     },
     {
       "name": "Worktrunk",
@@ -232,8 +343,14 @@
       "category": "01-coding-and-dev",
       "subcategory": "멀티 에이전트 오케스트레이션 & 하네스",
       "type": "Tool/CLI",
-      "tags": ["Git", "Worktree", "Multi-Agent"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1155"
+      "tags": [
+        "Git",
+        "Worktree",
+        "Multi-Agent"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1155",
+      "subcategory_en": "Multi-Agent Orchestration & Harnesses",
+      "description_en": "CLI tool that assigns separate Git worktree folders to parallel coding agents and merges results cleanly."
     },
     {
       "name": "OpenRig",
@@ -242,7 +359,12 @@
       "category": "01-coding-and-dev",
       "subcategory": "멀티 에이전트 오케스트레이션 & 하네스",
       "type": "Framework/Harness",
-      "tags": ["Orchestration", "Multi-Agent"]
+      "tags": [
+        "Orchestration",
+        "Multi-Agent"
+      ],
+      "subcategory_en": "Multi-Agent Orchestration & Harnesses",
+      "description_en": "Agent orchestration framework separating responsibilities between lead and worker agents."
     },
     {
       "name": "ruflo",
@@ -251,7 +373,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "멀티 에이전트 오케스트레이션 & 하네스",
       "type": "Framework/Harness",
-      "tags": ["Orchestration", "Claude Code", "Codex"]
+      "tags": [
+        "Orchestration",
+        "Claude Code",
+        "Codex"
+      ],
+      "subcategory_en": "Multi-Agent Orchestration & Harnesses",
+      "description_en": "Multi-agent orchestration layer built on top of Claude Code and Codex."
     },
     {
       "name": "DeepSeek Harness / DSH Desktop",
@@ -260,7 +388,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "멀티 에이전트 오케스트레이션 & 하네스",
       "type": "Framework/Harness",
-      "tags": ["DeepSeek", "Harness", "Desktop"]
+      "tags": [
+        "DeepSeek",
+        "Harness",
+        "Desktop"
+      ],
+      "subcategory_en": "Multi-Agent Orchestration & Harnesses",
+      "description_en": "Plugin-based execution harness unifying models, tools, skills, and run histories for AI agents."
     },
     {
       "name": "Google Research Harness²",
@@ -269,8 +403,14 @@
       "category": "01-coding-and-dev",
       "subcategory": "멀티 에이전트 오케스트레이션 & 하네스",
       "type": "Framework/Harness",
-      "tags": ["Google Research", "Harness", "Self-Improvement"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1170"
+      "tags": [
+        "Google Research",
+        "Harness",
+        "Self-Improvement"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1170",
+      "subcategory_en": "Multi-Agent Orchestration & Harnesses",
+      "description_en": "Research repository exploring self-improving agent execution harnesses through automated experimentation."
     },
     {
       "name": "GSD (Get Sh*t Done)",
@@ -279,7 +419,12 @@
       "category": "01-coding-and-dev",
       "subcategory": "멀티 에이전트 오케스트레이션 & 하네스",
       "type": "Framework/Harness",
-      "tags": ["Spec-Driven", "Context Management"]
+      "tags": [
+        "Spec-Driven",
+        "Context Management"
+      ],
+      "subcategory_en": "Multi-Agent Orchestration & Harnesses",
+      "description_en": "Spec-driven AI development framework designed to keep context windows clean and focused."
     },
     {
       "name": "Agency Agents",
@@ -288,7 +433,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "멀티 에이전트 오케스트레이션 & 하네스",
       "type": "App",
-      "tags": ["Persona", "Multi-Agent", "Desktop"]
+      "tags": [
+        "Persona",
+        "Multi-Agent",
+        "Desktop"
+      ],
+      "subcategory_en": "Multi-Agent Orchestration & Harnesses",
+      "description_en": "Desktop app and CLI for browsing and installing specialized developer, architect, and domain agent personas."
     },
     {
       "name": "codex-plugin-cc",
@@ -297,7 +448,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "멀티 에이전트 오케스트레이션 & 하네스",
       "type": "Tool/CLI",
-      "tags": ["OpenAI", "Codex", "Claude Code"]
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "Claude Code"
+      ],
+      "subcategory_en": "Multi-Agent Orchestration & Harnesses",
+      "description_en": "Plugin that lets you invoke OpenAI Codex directly from inside a Claude Code session for reviews or sub-tasks."
     },
     {
       "name": "t3code",
@@ -306,7 +463,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "멀티 에이전트 오케스트레이션 & 하네스",
       "type": "App",
-      "tags": ["Remote Control", "Claude Code", "Codex"]
+      "tags": [
+        "Remote Control",
+        "Claude Code",
+        "Codex"
+      ],
+      "subcategory_en": "Multi-Agent Orchestration & Harnesses",
+      "description_en": "Web, desktop, and mobile control interface for running your local Claude Code, Codex, or Cursor sessions remotely."
     },
     {
       "name": "OpenMausBot",
@@ -315,7 +478,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "멀티 에이전트 오케스트레이션 & 하네스",
       "type": "App",
-      "tags": ["Chat UI", "Local Agent", "Desktop"]
+      "tags": [
+        "Chat UI",
+        "Local Agent",
+        "Desktop"
+      ],
+      "subcategory_en": "Multi-Agent Orchestration & Harnesses",
+      "description_en": "Open-source local desktop app managing Claude, Codex, and other CLI agents inside a messaging-style interface with permission controls."
     },
     {
       "name": "Nodeterm",
@@ -324,8 +493,14 @@
       "category": "01-coding-and-dev",
       "subcategory": "멀티 에이전트 오케스트레이션 & 하네스",
       "type": "App",
-      "tags": ["Terminal", "Canvas", "Monitoring"],
-      "wp_url": "https://godstale.mycafe24.com/?p=848"
+      "tags": [
+        "Terminal",
+        "Canvas",
+        "Monitoring"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=848",
+      "subcategory_en": "Multi-Agent Orchestration & Harnesses",
+      "description_en": "Infinite-canvas desktop app displaying multiple AI agent terminals as visual nodes for at-a-glance monitoring."
     },
     {
       "name": "Hermes Agent",
@@ -334,8 +509,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "멀티 에이전트 오케스트레이션 & 하네스",
       "type": "Framework/Harness",
-      "tags": ["Local Agent", "Bot Mode"],
-      "wp_url": "https://godstale.mycafe24.com/?p=804"
+      "tags": [
+        "Local Agent",
+        "Bot Mode"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=804",
+      "subcategory_en": "Multi-Agent Orchestration & Harnesses",
+      "description_en": "Open-source local AI agent and bot-mode execution framework by Nous Research."
     },
     {
       "name": "codebase-memory-mcp",
@@ -344,7 +524,14 @@
       "category": "01-coding-and-dev",
       "subcategory": "코드 리뷰 · 분석 · 지식 그래프",
       "type": "MCP",
-      "tags": ["MCP", "Knowledge Graph", "Tree-sitter", "Token Optimization"]
+      "tags": [
+        "MCP",
+        "Knowledge Graph",
+        "Tree-sitter",
+        "Token Optimization"
+      ],
+      "subcategory_en": "Code Review, Analysis & Knowledge Graphs",
+      "description_en": "Local MCP server that indexes an entire codebase into an offline Tree-sitter knowledge graph to drastically cut search tokens."
     },
     {
       "name": "Trail-code (구 Graft)",
@@ -353,7 +540,14 @@
       "category": "01-coding-and-dev",
       "subcategory": "코드 리뷰 · 분석 · 지식 그래프",
       "type": "Tool/CLI",
-      "tags": ["Call Graph", "Blast Radius", "Context"]
+      "tags": [
+        "Call Graph",
+        "Blast Radius",
+        "Context"
+      ],
+      "name_en": "Trail-code (formerly Graft)",
+      "subcategory_en": "Code Review, Analysis & Knowledge Graphs",
+      "description_en": "Self-learning local context layer that builds function call maps and reports change blast radius on every prompt."
     },
     {
       "name": "code-review-graph",
@@ -362,7 +556,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "코드 리뷰 · 분석 · 지식 그래프",
       "type": "Tool/CLI",
-      "tags": ["Code Review", "Graph", "Token Optimization"]
+      "tags": [
+        "Code Review",
+        "Graph",
+        "Token Optimization"
+      ],
+      "subcategory_en": "Code Review, Analysis & Knowledge Graphs",
+      "description_en": "Builds a repository dependency graph so AI reviewers only read the files relevant to a change."
     },
     {
       "name": "open-code-review",
@@ -371,7 +571,12 @@
       "category": "01-coding-and-dev",
       "subcategory": "코드 리뷰 · 분석 · 지식 그래프",
       "type": "Tool/CLI",
-      "tags": ["Alibaba", "Code Review"]
+      "tags": [
+        "Alibaba",
+        "Code Review"
+      ],
+      "subcategory_en": "Code Review, Analysis & Knowledge Graphs",
+      "description_en": "Code review tool from Alibaba separating deterministic rule matching from LLM-based contextual judgment."
     },
     {
       "name": "plannotator",
@@ -380,8 +585,14 @@
       "category": "01-coding-and-dev",
       "subcategory": "코드 리뷰 · 분석 · 지식 그래프",
       "type": "Tool/CLI",
-      "tags": ["Plan Review", "Diff", "Browser UI"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1168"
+      "tags": [
+        "Plan Review",
+        "Diff",
+        "Browser UI"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1168",
+      "subcategory_en": "Code Review, Analysis & Knowledge Graphs",
+      "description_en": "Browser UI for reviewing agent plans and diffs with inline comments and sending structured feedback back in one pass."
     },
     {
       "name": "Understand-Anything",
@@ -390,8 +601,14 @@
       "category": "01-coding-and-dev",
       "subcategory": "코드 리뷰 · 분석 · 지식 그래프",
       "type": "Skill",
-      "tags": ["Codebase", "Knowledge Graph", "Visualization"],
-      "wp_url": "https://godstale.mycafe24.com/?p=801"
+      "tags": [
+        "Codebase",
+        "Knowledge Graph",
+        "Visualization"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=801",
+      "subcategory_en": "Code Review, Analysis & Knowledge Graphs",
+      "description_en": "Multi-agent plugin combining Tree-sitter analysis and interactive web dashboards to map large codebases."
     },
     {
       "name": "Graphify",
@@ -400,8 +617,14 @@
       "category": "01-coding-and-dev",
       "subcategory": "코드 리뷰 · 분석 · 지식 그래프",
       "type": "Tool/CLI",
-      "tags": ["Knowledge Graph", "Tree-sitter", "MCP"],
-      "wp_url": "https://godstale.mycafe24.com/?p=801"
+      "tags": [
+        "Knowledge Graph",
+        "Tree-sitter",
+        "MCP"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=801",
+      "subcategory_en": "Code Review, Analysis & Knowledge Graphs",
+      "description_en": "Lightweight CLI and skill converting code, docs, and PDFs into a queryable local Tree-sitter knowledge graph."
     },
     {
       "name": "Archify",
@@ -410,7 +633,12 @@
       "category": "01-coding-and-dev",
       "subcategory": "코드 리뷰 · 분석 · 지식 그래프",
       "type": "Tool/CLI",
-      "tags": ["Architecture", "Diagram"]
+      "tags": [
+        "Architecture",
+        "Diagram"
+      ],
+      "subcategory_en": "Code Review, Analysis & Knowledge Graphs",
+      "description_en": "Converts codebases or system descriptions into clear architecture diagrams automatically."
     },
     {
       "name": "NVIDIA SkillEvaluator",
@@ -419,8 +647,14 @@
       "category": "01-coding-and-dev",
       "subcategory": "코드 리뷰 · 분석 · 지식 그래프",
       "type": "Framework/Harness",
-      "tags": ["NVIDIA", "Evaluation", "Agent Skills"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1168"
+      "tags": [
+        "NVIDIA",
+        "Evaluation",
+        "Agent Skills"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1168",
+      "subcategory_en": "Code Review, Analysis & Knowledge Graphs",
+      "description_en": "Multi-tier open-source framework from NVIDIA to validate agent skills (SKILL.md) for schema, security, and behavioral lift."
     },
     {
       "name": "chrome-devtools-mcp",
@@ -429,7 +663,14 @@
       "category": "01-coding-and-dev",
       "subcategory": "브라우저 · 데스크톱 제어 & 테스트",
       "type": "MCP",
-      "tags": ["Google", "Chrome", "MCP", "Debugging"]
+      "tags": [
+        "Google",
+        "Chrome",
+        "MCP",
+        "Debugging"
+      ],
+      "subcategory_en": "Browser, Desktop Automation & Testing",
+      "description_en": "Official Google MCP server letting agents open real Chrome DevTools to inspect network, console, and performance."
     },
     {
       "name": "vercel-labs/agent-desktop",
@@ -438,8 +679,14 @@
       "category": "01-coding-and-dev",
       "subcategory": "브라우저 · 데스크톱 제어 & 테스트",
       "type": "Tool/CLI",
-      "tags": ["Vercel", "Desktop Automation", "Rust"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1155"
+      "tags": [
+        "Vercel",
+        "Desktop Automation",
+        "Rust"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1155",
+      "subcategory_en": "Browser, Desktop Automation & Testing",
+      "description_en": "Open-source Rust CLI and skill letting agents operate macOS, Windows, and Linux desktop apps via OS accessibility trees."
     },
     {
       "name": "vercel-labs/agent-browser",
@@ -448,7 +695,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "브라우저 · 데스크톱 제어 & 테스트",
       "type": "Tool/CLI",
-      "tags": ["Vercel", "Browser Automation", "CLI"]
+      "tags": [
+        "Vercel",
+        "Browser Automation",
+        "CLI"
+      ],
+      "subcategory_en": "Browser, Desktop Automation & Testing",
+      "description_en": "Minimal CLI enabling AI agents to navigate and interact with web browsers through shell commands."
     },
     {
       "name": "browser-use",
@@ -457,7 +710,12 @@
       "category": "01-coding-and-dev",
       "subcategory": "브라우저 · 데스크톱 제어 & 테스트",
       "type": "Framework/Harness",
-      "tags": ["Browser Automation", "Python"]
+      "tags": [
+        "Browser Automation",
+        "Python"
+      ],
+      "subcategory_en": "Browser, Desktop Automation & Testing",
+      "description_en": "Open-source Python framework enabling LLM agents to autonomously click, type, and navigate web pages."
     },
     {
       "name": "Playwright",
@@ -466,7 +724,14 @@
       "category": "01-coding-and-dev",
       "subcategory": "브라우저 · 데스크톱 제어 & 테스트",
       "type": "Tool/CLI",
-      "tags": ["Microsoft", "E2E", "Testing", "Browser"]
+      "tags": [
+        "Microsoft",
+        "E2E",
+        "Testing",
+        "Browser"
+      ],
+      "subcategory_en": "Browser, Desktop Automation & Testing",
+      "description_en": "Microsoft's open-source cross-browser automation and end-to-end UI testing framework."
     },
     {
       "name": "tester-army/e2e",
@@ -475,7 +740,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "브라우저 · 데스크톱 제어 & 테스트",
       "type": "Framework/Harness",
-      "tags": ["E2E", "Testing", "Natural Language"]
+      "tags": [
+        "E2E",
+        "Testing",
+        "Natural Language"
+      ],
+      "subcategory_en": "Browser, Desktop Automation & Testing",
+      "description_en": "End-to-end testing framework that lets you mix natural-language test steps with standard code assertions."
     },
     {
       "name": "Google ARTEMIS",
@@ -484,7 +755,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "브라우저 · 데스크톱 제어 & 테스트",
       "type": "Tool/CLI",
-      "tags": ["Google", "Android", "UI Testing"]
+      "tags": [
+        "Google",
+        "Android",
+        "UI Testing"
+      ],
+      "subcategory_en": "Browser, Desktop Automation & Testing",
+      "description_en": "Google's UI testing agent that automatically drives and tests Android apps from natural-language instructions."
     },
     {
       "name": "CLI-Anything",
@@ -493,7 +770,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "터미널 · IDE · 개발 유틸리티",
       "type": "Skill",
-      "tags": ["CLI", "Automation", "Wrapper"]
+      "tags": [
+        "CLI",
+        "Automation",
+        "Wrapper"
+      ],
+      "subcategory_en": "Terminals, IDEs & Dev Utilities",
+      "description_en": "Skill and wrapper toolkit that exposes GUI programs and general software as agent-friendly CLI commands."
     },
     {
       "name": "JetBrains Thinkrail",
@@ -502,7 +785,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "터미널 · IDE · 개발 유틸리티",
       "type": "App",
-      "tags": ["JetBrains", "IDE", "Coding Agent"]
+      "tags": [
+        "JetBrains",
+        "IDE",
+        "Coding Agent"
+      ],
+      "subcategory_en": "Terminals, IDEs & Dev Utilities",
+      "description_en": "Lightweight desktop AI coding tool from JetBrains Incubator with the open-source pi coding agent built in."
     },
     {
       "name": "Open Interpreter",
@@ -511,7 +800,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "터미널 · IDE · 개발 유틸리티",
       "type": "Tool/CLI",
-      "tags": ["Terminal", "Coding Agent", "Open Model"]
+      "tags": [
+        "Terminal",
+        "Coding Agent",
+        "Open Model"
+      ],
+      "subcategory_en": "Terminals, IDEs & Dev Utilities",
+      "description_en": "Open-source terminal coding agent that lets local and open-weight models write and execute code directly."
     },
     {
       "name": "Ghostty",
@@ -520,7 +815,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "터미널 · IDE · 개발 유틸리티",
       "type": "App",
-      "tags": ["Terminal", "macOS", "Linux"]
+      "tags": [
+        "Terminal",
+        "macOS",
+        "Linux"
+      ],
+      "subcategory_en": "Terminals, IDEs & Dev Utilities",
+      "description_en": "Fast, lightweight, GPU-accelerated native terminal emulator for macOS and Linux."
     },
     {
       "name": "Expo Exact",
@@ -529,7 +830,14 @@
       "category": "01-coding-and-dev",
       "subcategory": "백엔드 · DB · 인프라 개발 도구",
       "type": "Framework/Harness",
-      "tags": ["Expo", "Rust", "Cross-Platform", "AI-Native"]
+      "tags": [
+        "Expo",
+        "Rust",
+        "Cross-Platform",
+        "AI-Native"
+      ],
+      "subcategory_en": "Backend, Database & Infra Dev Tools",
+      "description_en": "AI-friendly, Rust-backed cross-platform runtime by Expo for building web, macOS, iOS, and Linux apps without React."
     },
     {
       "name": "drawDB",
@@ -538,7 +846,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "백엔드 · DB · 인프라 개발 도구",
       "type": "App",
-      "tags": ["Database", "ERD", "SQL"]
+      "tags": [
+        "Database",
+        "ERD",
+        "SQL"
+      ],
+      "subcategory_en": "Backend, Database & Infra Dev Tools",
+      "description_en": "Browser-based open-source database ERD editor and SQL generator requiring zero setup."
     },
     {
       "name": "Appwrite",
@@ -547,7 +861,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "백엔드 · DB · 인프라 개발 도구",
       "type": "Framework/Harness",
-      "tags": ["Backend", "BaaS", "Self-Hosted"]
+      "tags": [
+        "Backend",
+        "BaaS",
+        "Self-Hosted"
+      ],
+      "subcategory_en": "Backend, Database & Infra Dev Tools",
+      "description_en": "Open-source Backend-as-a-Service (BaaS) providing auth, databases, storage, functions, and hosting in one stack."
     },
     {
       "name": "Floci",
@@ -556,8 +876,14 @@
       "category": "01-coding-and-dev",
       "subcategory": "백엔드 · DB · 인프라 개발 도구",
       "type": "Tool/CLI",
-      "tags": ["AWS", "Local Cloud", "Testing"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1155"
+      "tags": [
+        "AWS",
+        "Local Cloud",
+        "Testing"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1155",
+      "subcategory_en": "Backend, Database & Infra Dev Tools",
+      "description_en": "Lightweight local cloud emulator for running AWS-shaped services (S3, etc.) locally with zero cloud account or paid gates."
     },
     {
       "name": "Arcane",
@@ -566,7 +892,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "백엔드 · DB · 인프라 개발 도구",
       "type": "App",
-      "tags": ["Docker", "Web UI", "Self-Hosted"]
+      "tags": [
+        "Docker",
+        "Web UI",
+        "Self-Hosted"
+      ],
+      "subcategory_en": "Backend, Database & Infra Dev Tools",
+      "description_en": "Clean, self-hosted web UI for managing Docker containers, volumes, networks, and Compose stacks."
     },
     {
       "name": "Coder",
@@ -575,8 +907,14 @@
       "category": "01-coding-and-dev",
       "subcategory": "백엔드 · DB · 인프라 개발 도구",
       "type": "Framework/Harness",
-      "tags": ["CDE", "Remote Dev", "Self-Hosted"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1072"
+      "tags": [
+        "CDE",
+        "Remote Dev",
+        "Self-Hosted"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1072",
+      "subcategory_en": "Backend, Database & Infra Dev Tools",
+      "description_en": "Self-hosted platform provisioning isolated remote dev environments for developers and AI agents via Docker and Terraform."
     },
     {
       "name": "Supabase CLI",
@@ -585,7 +923,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "백엔드 · DB · 인프라 개발 도구",
       "type": "Tool/CLI",
-      "tags": ["Supabase", "CLI", "Database"]
+      "tags": [
+        "Supabase",
+        "CLI",
+        "Database"
+      ],
+      "subcategory_en": "Backend, Database & Infra Dev Tools",
+      "description_en": "Official command-line tool for managing Supabase database migrations, Edge Functions, and local stacks."
     },
     {
       "name": "Vercel CLI",
@@ -594,7 +938,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "백엔드 · DB · 인프라 개발 도구",
       "type": "Tool/CLI",
-      "tags": ["Vercel", "CLI", "Deployment"]
+      "tags": [
+        "Vercel",
+        "CLI",
+        "Deployment"
+      ],
+      "subcategory_en": "Backend, Database & Infra Dev Tools",
+      "description_en": "Official CLI for controlling deployments, previews, and environment variables directly from agent loops."
     },
     {
       "name": "GitHub CLI (gh)",
@@ -603,7 +953,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "백엔드 · DB · 인프라 개발 도구",
       "type": "Tool/CLI",
-      "tags": ["GitHub", "CLI", "Git"]
+      "tags": [
+        "GitHub",
+        "CLI",
+        "Git"
+      ],
+      "subcategory_en": "Backend, Database & Infra Dev Tools",
+      "description_en": "Official GitHub CLI for managing issues, pull requests, Actions workflows, and releases from the terminal."
     },
     {
       "name": "Google MCP Toolbox (genai-toolbox)",
@@ -612,7 +968,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "MCP · API · 레퍼런스 모음",
       "type": "MCP",
-      "tags": ["Google", "MCP", "Database"]
+      "tags": [
+        "Google",
+        "MCP",
+        "Database"
+      ],
+      "subcategory_en": "MCP, APIs & Reference Collections",
+      "description_en": "Open-source MCP server toolbox by Google for connecting AI agents to databases and cloud services."
     },
     {
       "name": "awesome-mcp-servers",
@@ -621,7 +983,12 @@
       "category": "01-coding-and-dev",
       "subcategory": "MCP · API · 레퍼런스 모음",
       "type": "Resource/Guide",
-      "tags": ["MCP", "Awesome List"]
+      "tags": [
+        "MCP",
+        "Awesome List"
+      ],
+      "subcategory_en": "MCP, APIs & Reference Collections",
+      "description_en": "Curated community directory of Model Context Protocol (MCP) servers organized by use case."
     },
     {
       "name": "public-apis",
@@ -630,7 +997,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "MCP · API · 레퍼런스 모음",
       "type": "Resource/Guide",
-      "tags": ["API", "Free", "Awesome List"]
+      "tags": [
+        "API",
+        "Free",
+        "Awesome List"
+      ],
+      "subcategory_en": "MCP, APIs & Reference Collections",
+      "description_en": "Essential developer bookmark listing free public APIs across dozens of categories."
     },
     {
       "name": "claude-quickstarts",
@@ -639,7 +1012,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "MCP · API · 레퍼런스 모음",
       "type": "Resource/Guide",
-      "tags": ["Anthropic", "Templates", "Starter"]
+      "tags": [
+        "Anthropic",
+        "Templates",
+        "Starter"
+      ],
+      "subcategory_en": "MCP, APIs & Reference Collections",
+      "description_en": "Official starter templates from Anthropic for rapidly building Claude API and agent projects."
     },
     {
       "name": "claude-code-tips",
@@ -648,7 +1027,12 @@
       "category": "01-coding-and-dev",
       "subcategory": "MCP · API · 레퍼런스 모음",
       "type": "Resource/Guide",
-      "tags": ["Claude Code", "Tips"]
+      "tags": [
+        "Claude Code",
+        "Tips"
+      ],
+      "subcategory_en": "MCP, APIs & Reference Collections",
+      "description_en": "Community guide compiling practical tips and workflow tricks for getting more out of Claude Code."
     },
     {
       "name": "RAD Debugger",
@@ -657,7 +1041,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "시스템 · 컴파일러 · 핵심 라이브러리",
       "type": "Tool/CLI",
-      "tags": ["Debugger", "C++", "Native"]
+      "tags": [
+        "Debugger",
+        "C++",
+        "Native"
+      ],
+      "subcategory_en": "Systems, Compilers & Core Libraries",
+      "description_en": "Native multi-process debugger open-sourced by Epic Games (Windows, with early Linux support)."
     },
     {
       "name": "LLVM Project",
@@ -666,7 +1056,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "시스템 · 컴파일러 · 핵심 라이브러리",
       "type": "Library",
-      "tags": ["Compiler", "C++", "Infrastructure"]
+      "tags": [
+        "Compiler",
+        "C++",
+        "Infrastructure"
+      ],
+      "subcategory_en": "Systems, Compilers & Core Libraries",
+      "description_en": "Modular compiler and toolchain infrastructure powering Rust, Swift, Clang, and modern code optimization."
     },
     {
       "name": "{fmt}",
@@ -675,7 +1071,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "시스템 · 컴파일러 · 핵심 라이브러리",
       "type": "Library",
-      "tags": ["C++", "Formatting", "Library"]
+      "tags": [
+        "C++",
+        "Formatting",
+        "Library"
+      ],
+      "subcategory_en": "Systems, Compilers & Core Libraries",
+      "description_en": "Modern open-source C++ text formatting library offering fast, safe, Python-like syntax."
     },
     {
       "name": "Modular Mojo",
@@ -684,7 +1086,13 @@
       "category": "01-coding-and-dev",
       "subcategory": "시스템 · 컴파일러 · 핵심 라이브러리",
       "type": "Library",
-      "tags": ["Mojo", "AI Language", "Performance"]
+      "tags": [
+        "Mojo",
+        "AI Language",
+        "Performance"
+      ],
+      "subcategory_en": "Systems, Compilers & Core Libraries",
+      "description_en": "High-performance programming language combining Python-friendly syntax with systems-level speed for AI."
     },
     {
       "name": "OfficeCLI",
@@ -693,8 +1101,16 @@
       "category": "02-productivity-and-business",
       "subcategory": "문서 · 오피스 & 개인 생산성",
       "type": "Tool/CLI",
-      "tags": ["Office", "Word", "Excel", "PPT", "CLI"],
-      "wp_url": "https://godstale.mycafe24.com/?p=867"
+      "tags": [
+        "Office",
+        "Word",
+        "Excel",
+        "PPT",
+        "CLI"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=867",
+      "subcategory_en": "Documents, Office & Personal Productivity",
+      "description_en": "Single-binary CLI for automating Word, Excel, and PowerPoint edits without installing Microsoft Office."
     },
     {
       "name": "Taskwarrior",
@@ -703,7 +1119,13 @@
       "category": "02-productivity-and-business",
       "subcategory": "문서 · 오피스 & 개인 생산성",
       "type": "Tool/CLI",
-      "tags": ["Task", "CLI", "Productivity"]
+      "tags": [
+        "Task",
+        "CLI",
+        "Productivity"
+      ],
+      "subcategory_en": "Documents, Office & Personal Productivity",
+      "description_en": "Lightweight, fast open-source command-line task and issue tracker."
     },
     {
       "name": "Obsidian",
@@ -712,7 +1134,13 @@
       "category": "02-productivity-and-business",
       "subcategory": "문서 · 오피스 & 개인 생산성",
       "type": "App",
-      "tags": ["Markdown", "PKM", "Wiki"]
+      "tags": [
+        "Markdown",
+        "PKM",
+        "Wiki"
+      ],
+      "subcategory_en": "Documents, Office & Personal Productivity",
+      "description_en": "Markdown-based personal knowledge app widely paired with Claude Code for local personal-assistant wikis."
     },
     {
       "name": "Meetily",
@@ -721,7 +1149,14 @@
       "category": "02-productivity-and-business",
       "subcategory": "문서 · 오피스 & 개인 생산성",
       "type": "App",
-      "tags": ["Meeting", "STT", "Local", "Summary"]
+      "tags": [
+        "Meeting",
+        "STT",
+        "Local",
+        "Summary"
+      ],
+      "subcategory_en": "Documents, Office & Personal Productivity",
+      "description_en": "Local-first open-source AI meeting assistant providing real-time transcription, speaker diarization, and summaries without cloud upload."
     },
     {
       "name": "i-have-adhd",
@@ -730,7 +1165,13 @@
       "category": "02-productivity-and-business",
       "subcategory": "문서 · 오피스 & 개인 생산성",
       "type": "Skill",
-      "tags": ["Communication", "Concise", "Skill"]
+      "tags": [
+        "Communication",
+        "Concise",
+        "Skill"
+      ],
+      "subcategory_en": "Documents, Office & Personal Productivity",
+      "description_en": "Response-style skill that forces AI agents to lead with the conclusion instead of burying answers under long preambles."
     },
     {
       "name": "claude-mem",
@@ -739,8 +1180,14 @@
       "category": "02-productivity-and-business",
       "subcategory": "에이전트 메모리 · 위키 & 컨텍스트",
       "type": "Tool/CLI",
-      "tags": ["Memory", "Claude Code", "Context"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1155"
+      "tags": [
+        "Memory",
+        "Claude Code",
+        "Context"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1155",
+      "subcategory_en": "Agent Memory, Wikis & Context",
+      "description_en": "Summarizes session work and restores only relevant context in future sessions to mitigate context loss."
     },
     {
       "name": "OpenViking",
@@ -749,8 +1196,14 @@
       "category": "02-productivity-and-business",
       "subcategory": "에이전트 메모리 · 위키 & 컨텍스트",
       "type": "Framework/Harness",
-      "tags": ["Context DB", "Memory", "ByteDance"],
-      "wp_url": "https://godstale.mycafe24.com/?p=848"
+      "tags": [
+        "Context DB",
+        "Memory",
+        "ByteDance"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=848",
+      "subcategory_en": "Agent Memory, Wikis & Context",
+      "description_en": "Dedicated context database designed for AI agents to store and retrieve long-term memory systematically."
     },
     {
       "name": "Hindsight",
@@ -759,7 +1212,12 @@
       "category": "02-productivity-and-business",
       "subcategory": "에이전트 메모리 · 위키 & 컨텍스트",
       "type": "Framework/Harness",
-      "tags": ["Memory", "Retrospective"]
+      "tags": [
+        "Memory",
+        "Retrospective"
+      ],
+      "subcategory_en": "Agent Memory, Wikis & Context",
+      "description_en": "Memory system that records past agent sessions and reflections to inform future decisions."
     },
     {
       "name": "context-mode",
@@ -768,7 +1226,12 @@
       "category": "02-productivity-and-business",
       "subcategory": "에이전트 메모리 · 위키 & 컨텍스트",
       "type": "Tool/CLI",
-      "tags": ["Context Window", "Token Optimization"]
+      "tags": [
+        "Context Window",
+        "Token Optimization"
+      ],
+      "subcategory_en": "Agent Memory, Wikis & Context",
+      "description_en": "Utility that prevents coding agents from quickly exhausting their context window with verbose tool output."
     },
     {
       "name": "WeKnora",
@@ -777,7 +1240,13 @@
       "category": "02-productivity-and-business",
       "subcategory": "에이전트 메모리 · 위키 & 컨텍스트",
       "type": "App",
-      "tags": ["Wiki", "RAG", "Knowledge Base"]
+      "tags": [
+        "Wiki",
+        "RAG",
+        "Knowledge Base"
+      ],
+      "subcategory_en": "Agent Memory, Wikis & Context",
+      "description_en": "Open-source Tencent platform that turns internal documents into an interlinked wiki maintained by agents."
     },
     {
       "name": "Semantica",
@@ -786,7 +1255,13 @@
       "category": "02-productivity-and-business",
       "subcategory": "에이전트 메모리 · 위키 & 컨텍스트",
       "type": "Framework/Harness",
-      "tags": ["Knowledge Graph", "Memory", "Provenance"]
+      "tags": [
+        "Knowledge Graph",
+        "Memory",
+        "Provenance"
+      ],
+      "subcategory_en": "Agent Memory, Wikis & Context",
+      "description_en": "Graph-based memory infrastructure allowing AI agents to recall context while tracking source provenance."
     },
     {
       "name": "NVIDIA Auto-Ontology",
@@ -795,8 +1270,15 @@
       "category": "02-productivity-and-business",
       "subcategory": "에이전트 메모리 · 위키 & 컨텍스트",
       "type": "Framework/Harness",
-      "tags": ["NVIDIA", "Ontology", "Text-to-SQL", "MCP"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1155"
+      "tags": [
+        "NVIDIA",
+        "Ontology",
+        "Text-to-SQL",
+        "MCP"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1155",
+      "subcategory_en": "Agent Memory, Wikis & Context",
+      "description_en": "Open-source framework that compiles database schemas and business terms into an ontology for reliable natural-language Text-to-SQL."
     },
     {
       "name": "Agent-Reach",
@@ -805,7 +1287,13 @@
       "category": "02-productivity-and-business",
       "subcategory": "웹 수집 · 리서치 & 자동화",
       "type": "Tool/CLI",
-      "tags": ["Web Scraping", "Research", "Social"]
+      "tags": [
+        "Web Scraping",
+        "Research",
+        "Social"
+      ],
+      "subcategory_en": "Web Scraping, Research & Automation",
+      "description_en": "Multi-platform web reader letting agents fetch content from X (Twitter), Reddit, YouTube, and web pages without paid APIs."
     },
     {
       "name": "Firecrawl",
@@ -814,7 +1302,13 @@
       "category": "02-productivity-and-business",
       "subcategory": "웹 수집 · 리서치 & 자동화",
       "type": "Tool/CLI",
-      "tags": ["Crawling", "Markdown", "Research"]
+      "tags": [
+        "Crawling",
+        "Markdown",
+        "Research"
+      ],
+      "subcategory_en": "Web Scraping, Research & Automation",
+      "description_en": "Agent-oriented web scraping and crawling tool converting websites into clean LLM-ready markdown and structured data."
     },
     {
       "name": "Scrapling",
@@ -823,8 +1317,14 @@
       "category": "02-productivity-and-business",
       "subcategory": "웹 수집 · 리서치 & 자동화",
       "type": "Library",
-      "tags": ["Python", "Crawler", "MCP"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1155"
+      "tags": [
+        "Python",
+        "Crawler",
+        "MCP"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1155",
+      "subcategory_en": "Web Scraping, Research & Automation",
+      "description_en": "Adaptive Python web crawler that relocates target elements when page structures change (MCP supported; follow site terms)."
     },
     {
       "name": "last30days-skill",
@@ -833,7 +1333,13 @@
       "category": "02-productivity-and-business",
       "subcategory": "웹 수집 · 리서치 & 자동화",
       "type": "Skill",
-      "tags": ["Research", "Trend", "Summary"]
+      "tags": [
+        "Research",
+        "Trend",
+        "Summary"
+      ],
+      "subcategory_en": "Web Scraping, Research & Automation",
+      "description_en": "Research skill that gathers the past 30 days of discussions across Reddit, X, YouTube, and Hacker News into a single summary."
     },
     {
       "name": "NotebookLM Skill (NotebookLM-PI)",
@@ -842,7 +1348,13 @@
       "category": "02-productivity-and-business",
       "subcategory": "웹 수집 · 리서치 & 자동화",
       "type": "Skill",
-      "tags": ["NotebookLM", "Research", "Claude Code"]
+      "tags": [
+        "NotebookLM",
+        "Research",
+        "Claude Code"
+      ],
+      "subcategory_en": "Web Scraping, Research & Automation",
+      "description_en": "Skill integrating Google NotebookLM research workflows directly into the Claude Code terminal."
     },
     {
       "name": "marketingskills",
@@ -851,7 +1363,13 @@
       "category": "02-productivity-and-business",
       "subcategory": "마케팅 · SEO · 직무별 비즈니스",
       "type": "Skill",
-      "tags": ["Marketing", "SEO", "Copywriting"]
+      "tags": [
+        "Marketing",
+        "SEO",
+        "Copywriting"
+      ],
+      "subcategory_en": "Marketing, SEO & Business Workflows",
+      "description_en": "Collection of 50+ agent skills for marketers covering CRO, copywriting, and SEO."
     },
     {
       "name": "claude-seo",
@@ -860,7 +1378,13 @@
       "category": "02-productivity-and-business",
       "subcategory": "마케팅 · SEO · 직무별 비즈니스",
       "type": "Skill",
-      "tags": ["SEO", "GEO", "Claude Code"]
+      "tags": [
+        "SEO",
+        "GEO",
+        "Claude Code"
+      ],
+      "subcategory_en": "Marketing, SEO & Business Workflows",
+      "description_en": "SEO and GEO (Generative Engine Optimization) audit plugin for Claude Code covering technical SEO, schema, and exposure checks."
     },
     {
       "name": "open-seo",
@@ -869,7 +1393,12 @@
       "category": "02-productivity-and-business",
       "subcategory": "마케팅 · SEO · 직무별 비즈니스",
       "type": "Tool/CLI",
-      "tags": ["SEO", "Audit"]
+      "tags": [
+        "SEO",
+        "Audit"
+      ],
+      "subcategory_en": "Marketing, SEO & Business Workflows",
+      "description_en": "Open-source automated website SEO auditing tool."
     },
     {
       "name": "anthropics/knowledge-work-plugins",
@@ -878,7 +1407,14 @@
       "category": "02-productivity-and-business",
       "subcategory": "마케팅 · SEO · 직무별 비즈니스",
       "type": "Skill",
-      "tags": ["Anthropic", "Business", "Sales", "Legal"]
+      "tags": [
+        "Anthropic",
+        "Business",
+        "Sales",
+        "Legal"
+      ],
+      "subcategory_en": "Marketing, SEO & Business Workflows",
+      "description_en": "Official Anthropic plugins supporting non-engineering roles such as sales, legal, and operations."
     },
     {
       "name": "anthropics/financial-services",
@@ -887,7 +1423,13 @@
       "category": "02-productivity-and-business",
       "subcategory": "금융 · 가계부 & 데이터 분석",
       "type": "Skill",
-      "tags": ["Anthropic", "Finance", "Analysis"]
+      "tags": [
+        "Anthropic",
+        "Finance",
+        "Analysis"
+      ],
+      "subcategory_en": "Finance, Budgeting & Data Analysis",
+      "description_en": "Official Anthropic agent suite tailored for investment banking and asset management workflows."
     },
     {
       "name": "Sure (we-promise/sure)",
@@ -896,8 +1438,14 @@
       "category": "02-productivity-and-business",
       "subcategory": "금융 · 가계부 & 데이터 분석",
       "type": "App",
-      "tags": ["Finance", "Self-Hosted", "Budget"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1168"
+      "tags": [
+        "Finance",
+        "Self-Hosted",
+        "Budget"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1168",
+      "subcategory_en": "Finance, Budgeting & Data Analysis",
+      "description_en": "Self-hosted open-source personal finance and budgeting web app (community continuation of Maybe Finance)."
     },
     {
       "name": "daily_stock_analysis",
@@ -906,8 +1454,14 @@
       "category": "02-productivity-and-business",
       "subcategory": "금융 · 가계부 & 데이터 분석",
       "type": "Tool/CLI",
-      "tags": ["Finance", "Stock", "GitHub Actions"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1168"
+      "tags": [
+        "Finance",
+        "Stock",
+        "GitHub Actions"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1168",
+      "subcategory_en": "Finance, Budgeting & Data Analysis",
+      "description_en": "Automated pipeline collecting stock quotes and news for LLM-generated reports sent via email or messenger (educational reference only)."
     },
     {
       "name": "Vibe-Trading",
@@ -916,7 +1470,13 @@
       "category": "02-productivity-and-business",
       "subcategory": "금융 · 가계부 & 데이터 분석",
       "type": "Framework/Harness",
-      "tags": ["Trading", "Finance", "Agent"]
+      "tags": [
+        "Trading",
+        "Finance",
+        "Agent"
+      ],
+      "subcategory_en": "Finance, Budgeting & Data Analysis",
+      "description_en": "Open-source personal trading agent framework supporting natural-language strategy design, backtesting, and simulation."
     },
     {
       "name": "Kronos",
@@ -925,8 +1485,14 @@
       "category": "02-productivity-and-business",
       "subcategory": "금융 · 가계부 & 데이터 분석",
       "type": "Model",
-      "tags": ["Time Series", "Finance", "Research"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1155"
+      "tags": [
+        "Time Series",
+        "Finance",
+        "Research"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1155",
+      "subcategory_en": "Finance, Budgeting & Data Analysis",
+      "description_en": "Research model trained on financial charts to forecast price movements (not intended for live trading)."
     },
     {
       "name": "Google TimesFM",
@@ -935,7 +1501,13 @@
       "category": "02-productivity-and-business",
       "subcategory": "금융 · 가계부 & 데이터 분석",
       "type": "Model",
-      "tags": ["Google", "Time Series", "Forecasting"]
+      "tags": [
+        "Google",
+        "Time Series",
+        "Forecasting"
+      ],
+      "subcategory_en": "Finance, Budgeting & Data Analysis",
+      "description_en": "Pretrained foundation model from Google Research dedicated to time-series forecasting."
     },
     {
       "name": "JobFinderOS (AI Job Search)",
@@ -944,7 +1516,13 @@
       "category": "02-productivity-and-business",
       "subcategory": "협업 · 일상 & 스마트홈",
       "type": "Skill",
-      "tags": ["Career", "Resume", "Claude Code"]
+      "tags": [
+        "Career",
+        "Resume",
+        "Claude Code"
+      ],
+      "subcategory_en": "Collaboration, Daily Life & Smart Home",
+      "description_en": "AI job-search assistant running in Claude Code to score listings, tailor resumes, and prep for interviews."
     },
     {
       "name": "Block Buzz",
@@ -953,8 +1531,14 @@
       "category": "02-productivity-and-business",
       "subcategory": "협업 · 일상 & 스마트홈",
       "type": "App",
-      "tags": ["Collaboration", "Team", "Multi-Agent"],
-      "wp_url": "https://godstale.mycafe24.com/?p=851"
+      "tags": [
+        "Collaboration",
+        "Team",
+        "Multi-Agent"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=851",
+      "subcategory_en": "Collaboration, Daily Life & Smart Home",
+      "description_en": "Collaboration platform by Block where humans and AI agents work together in shared channels."
     },
     {
       "name": "Macro Workspace",
@@ -963,8 +1547,13 @@
       "category": "02-productivity-and-business",
       "subcategory": "협업 · 일상 & 스마트홈",
       "type": "App",
-      "tags": ["Collaboration", "Shared Memory"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1153"
+      "tags": [
+        "Collaboration",
+        "Shared Memory"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1153",
+      "subcategory_en": "Collaboration, Daily Life & Smart Home",
+      "description_en": "Unified workspace combining email, chat, docs, tasks, and agents backed by shared AI memory."
     },
     {
       "name": "ha-mcp (Home Assistant MCP)",
@@ -973,7 +1562,13 @@
       "category": "02-productivity-and-business",
       "subcategory": "협업 · 일상 & 스마트홈",
       "type": "MCP",
-      "tags": ["Smart Home", "Home Assistant", "MCP"]
+      "tags": [
+        "Smart Home",
+        "Home Assistant",
+        "MCP"
+      ],
+      "subcategory_en": "Collaboration, Daily Life & Smart Home",
+      "description_en": "MCP server connecting Home Assistant to Claude or ChatGPT for natural-language smart-home control and automation."
     },
     {
       "name": "AIRI",
@@ -982,7 +1577,13 @@
       "category": "02-productivity-and-business",
       "subcategory": "협업 · 일상 & 스마트홈",
       "type": "App",
-      "tags": ["Companion", "Voice", "Self-Hosted"]
+      "tags": [
+        "Companion",
+        "Voice",
+        "Self-Hosted"
+      ],
+      "subcategory_en": "Collaboration, Daily Life & Smart Home",
+      "description_en": "Self-hosted open-source AI companion supporting real-time voice chat and playing Minecraft."
     },
     {
       "name": "WorldMonitor",
@@ -991,7 +1592,13 @@
       "category": "02-productivity-and-business",
       "subcategory": "협업 · 일상 & 스마트홈",
       "type": "App",
-      "tags": ["Dashboard", "3D Globe", "Monitoring"]
+      "tags": [
+        "Dashboard",
+        "3D Globe",
+        "Monitoring"
+      ],
+      "subcategory_en": "Collaboration, Daily Life & Smart Home",
+      "description_en": "Open-source 3D globe dashboard visualizing 65+ live global API feeds (AGPL)."
     },
     {
       "name": "God's Eye View",
@@ -1000,7 +1607,13 @@
       "category": "02-productivity-and-business",
       "subcategory": "협업 · 일상 & 스마트홈",
       "type": "App",
-      "tags": ["3D Globe", "Satellite", "Visualization"]
+      "tags": [
+        "3D Globe",
+        "Satellite",
+        "Visualization"
+      ],
+      "subcategory_en": "Collaboration, Daily Life & Smart Home",
+      "description_en": "Browser-based 3D globe viewer displaying real-time aircraft, ship, satellite, and traffic data."
     },
     {
       "name": "HyperFrames",
@@ -1009,8 +1622,14 @@
       "category": "03-media-and-creative",
       "subcategory": "영상 제작 · 편집 & 모션그래픽",
       "type": "Framework/Harness",
-      "tags": ["Video", "Motion Graphics", "HTML-to-Video"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1071"
+      "tags": [
+        "Video",
+        "Motion Graphics",
+        "HTML-to-Video"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1071",
+      "subcategory_en": "Video Production, Editing & Motion Graphics",
+      "description_en": "Deterministic code-to-video engine that renders agent-written HTML/CSS/GSAP animations via headless Chrome."
     },
     {
       "name": "Remotion",
@@ -1019,8 +1638,14 @@
       "category": "03-media-and-creative",
       "subcategory": "영상 제작 · 편집 & 모션그래픽",
       "type": "Framework/Harness",
-      "tags": ["React", "Motion Graphics", "Video"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1086"
+      "tags": [
+        "React",
+        "Motion Graphics",
+        "Video"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1086",
+      "subcategory_en": "Video Production, Editing & Motion Graphics",
+      "description_en": "Leading open-source framework for creating and rendering motion graphics and videos programmatically with React."
     },
     {
       "name": "OpenMontage",
@@ -1029,7 +1654,13 @@
       "category": "03-media-and-creative",
       "subcategory": "영상 제작 · 편집 & 모션그래픽",
       "type": "Framework/Harness",
-      "tags": ["Video Automation", "Claude Code", "Pipeline"]
+      "tags": [
+        "Video Automation",
+        "Claude Code",
+        "Pipeline"
+      ],
+      "subcategory_en": "Video Production, Editing & Motion Graphics",
+      "description_en": "Multi-agent open-source video pipeline that analyzes reference reels, plans scenes, and edits complete videos."
     },
     {
       "name": "MoneyPrinterTurbo",
@@ -1038,8 +1669,14 @@
       "category": "03-media-and-creative",
       "subcategory": "영상 제작 · 편집 & 모션그래픽",
       "type": "App",
-      "tags": ["Short-form", "Video", "Automation"],
-      "wp_url": "https://godstale.mycafe24.com/?p=852"
+      "tags": [
+        "Short-form",
+        "Video",
+        "Automation"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=852",
+      "subcategory_en": "Video Production, Editing & Motion Graphics",
+      "description_en": "Open-source tool that generates full short-form videos (script, voiceover, subtitles, music) from a single topic line."
     },
     {
       "name": "video-use",
@@ -1048,7 +1685,13 @@
       "category": "03-media-and-creative",
       "subcategory": "영상 제작 · 편집 & 모션그래픽",
       "type": "Tool/CLI",
-      "tags": ["Video Editing", "Subtitles", "Agent"]
+      "tags": [
+        "Video Editing",
+        "Subtitles",
+        "Agent"
+      ],
+      "subcategory_en": "Video Production, Editing & Motion Graphics",
+      "description_en": "Tool letting coding agents edit videos by reading word-level timestamped transcripts and building cut lists."
     },
     {
       "name": "claude-video",
@@ -1057,7 +1700,13 @@
       "category": "03-media-and-creative",
       "subcategory": "영상 제작 · 편집 & 모션그래픽",
       "type": "Tool/CLI",
-      "tags": ["Claude", "Video Analysis", "Frames"]
+      "tags": [
+        "Claude",
+        "Video Analysis",
+        "Frames"
+      ],
+      "subcategory_en": "Video Production, Editing & Motion Graphics",
+      "description_en": "Extracts video frames and subtitles so Claude can inspect and analyze video content visually."
     },
     {
       "name": "OpenCut",
@@ -1066,7 +1715,12 @@
       "category": "03-media-and-creative",
       "subcategory": "영상 제작 · 편집 & 모션그래픽",
       "type": "App",
-      "tags": ["Video Editor", "Web App"]
+      "tags": [
+        "Video Editor",
+        "Web App"
+      ],
+      "subcategory_en": "Video Production, Editing & Motion Graphics",
+      "description_en": "Lightweight open-source video editor running directly in the web browser."
     },
     {
       "name": "ArtCraft",
@@ -1075,7 +1729,13 @@
       "category": "03-media-and-creative",
       "subcategory": "영상 제작 · 편집 & 모션그래픽",
       "type": "App",
-      "tags": ["3D Previz", "Video", "Desktop IDE"]
+      "tags": [
+        "3D Previz",
+        "Video",
+        "Desktop IDE"
+      ],
+      "subcategory_en": "Video Production, Editing & Motion Graphics",
+      "description_en": "Open-source desktop IDE for 2D compositing and 3D pose/camera staging that renders video across 60+ AI models."
     },
     {
       "name": "Lemo-Opuscar",
@@ -1084,7 +1744,13 @@
       "category": "03-media-and-creative",
       "subcategory": "영상 제작 · 편집 & 모션그래픽",
       "type": "Skill",
-      "tags": ["Claude Code", "Film", "Video"]
+      "tags": [
+        "Claude Code",
+        "Film",
+        "Video"
+      ],
+      "subcategory_en": "Video Production, Editing & Motion Graphics",
+      "description_en": "Film-style creative direction toolkit designed for Claude Code."
     },
     {
       "name": "Manim (Community)",
@@ -1093,7 +1759,14 @@
       "category": "03-media-and-creative",
       "subcategory": "영상 제작 · 편집 & 모션그래픽",
       "type": "Library",
-      "tags": ["Animation", "Python", "Math", "Video"]
+      "tags": [
+        "Animation",
+        "Python",
+        "Math",
+        "Video"
+      ],
+      "subcategory_en": "Video Production, Editing & Motion Graphics",
+      "description_en": "Open-source Python animation engine for math, algorithm, and technical explainers (pairs well with Claude Code)."
     },
     {
       "name": "Opus 5.5 Motion Graphic Collection (claudevideo.org)",
@@ -1102,8 +1775,14 @@
       "category": "03-media-and-creative",
       "subcategory": "영상 제작 · 편집 & 모션그래픽",
       "type": "Resource/Guide",
-      "tags": ["Motion Graphics", "Prompts", "Showcase"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1111"
+      "tags": [
+        "Motion Graphics",
+        "Prompts",
+        "Showcase"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1111",
+      "subcategory_en": "Video Production, Editing & Motion Graphics",
+      "description_en": "Community index showcasing code-rendered motion graphics and prompts created with Claude Opus 5.5."
     },
     {
       "name": "awesome-opus5-5-videos",
@@ -1112,7 +1791,13 @@
       "category": "03-media-and-creative",
       "subcategory": "영상 제작 · 편집 & 모션그래픽",
       "type": "Resource/Guide",
-      "tags": ["Motion Graphics", "Claude", "Awesome List"]
+      "tags": [
+        "Motion Graphics",
+        "Claude",
+        "Awesome List"
+      ],
+      "subcategory_en": "Video Production, Editing & Motion Graphics",
+      "description_en": "Curated GitHub collection of notable motion graphic videos and prompts built with Claude Opus 5.5."
     },
     {
       "name": "Skillry Motion Graphics Reference",
@@ -1121,7 +1806,12 @@
       "category": "03-media-and-creative",
       "subcategory": "영상 제작 · 편집 & 모션그래픽",
       "type": "Resource/Guide",
-      "tags": ["Motion Graphics", "Prompts"]
+      "tags": [
+        "Motion Graphics",
+        "Prompts"
+      ],
+      "subcategory_en": "Video Production, Editing & Motion Graphics",
+      "description_en": "Reference gallery displaying Opus 5.5 code-rendered AI videos alongside their prompts."
     },
     {
       "name": "Prompt Motion",
@@ -1130,7 +1820,12 @@
       "category": "03-media-and-creative",
       "subcategory": "영상 제작 · 편집 & 모션그래픽",
       "type": "Resource/Guide",
-      "tags": ["Motion Graphics", "Prompts"]
+      "tags": [
+        "Motion Graphics",
+        "Prompts"
+      ],
+      "subcategory_en": "Video Production, Editing & Motion Graphics",
+      "description_en": "Collection of prompt patterns and visual references for code-driven AI motion graphics."
     },
     {
       "name": "리틱체 (REATIC Font)",
@@ -1139,8 +1834,15 @@
       "category": "03-media-and-creative",
       "subcategory": "영상 제작 · 편집 & 모션그래픽",
       "type": "Resource/Guide",
-      "tags": ["Font", "Motion Graphics", "Korean"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1167"
+      "tags": [
+        "Font",
+        "Motion Graphics",
+        "Korean"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1167",
+      "name_en": "REATIC Font",
+      "subcategory_en": "Video Production, Editing & Motion Graphics",
+      "description_en": "Free commercial Korean display font family (9 styles) built specifically for bold titles and motion-graphic stretch effects."
     },
     {
       "name": "Voicebox",
@@ -1149,7 +1851,13 @@
       "category": "03-media-and-creative",
       "subcategory": "음성(TTS/STT) · 오디오 & 음악",
       "type": "App",
-      "tags": ["Voice Cloning", "TTS", "STT"]
+      "tags": [
+        "Voice Cloning",
+        "TTS",
+        "STT"
+      ],
+      "subcategory_en": "Voice (TTS/STT), Audio & Music",
+      "description_en": "Open-source AI voice studio supporting voice cloning and transcription."
     },
     {
       "name": "VoiceStudio",
@@ -1158,8 +1866,13 @@
       "category": "03-media-and-creative",
       "subcategory": "음성(TTS/STT) · 오디오 & 음악",
       "type": "App",
-      "tags": ["Local TTS", "Audio Editor"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1106"
+      "tags": [
+        "Local TTS",
+        "Audio Editor"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1106",
+      "subcategory_en": "Voice (TTS/STT), Audio & Music",
+      "description_en": "Local-first open-source voice generator with built-in audio recording, trimming, and editing."
     },
     {
       "name": "Chatterbox (Chatterbox-nano)",
@@ -1168,7 +1881,13 @@
       "category": "03-media-and-creative",
       "subcategory": "음성(TTS/STT) · 오디오 & 음악",
       "type": "Model",
-      "tags": ["TTS", "Local", "Lightweight"]
+      "tags": [
+        "TTS",
+        "Local",
+        "Lightweight"
+      ],
+      "subcategory_en": "Voice (TTS/STT), Audio & Music",
+      "description_en": "Lightweight open-source text-to-speech (TTS) model by Resemble AI that runs smoothly on laptops."
     },
     {
       "name": "ACE-Step",
@@ -1177,7 +1896,13 @@
       "category": "03-media-and-creative",
       "subcategory": "음성(TTS/STT) · 오디오 & 음악",
       "type": "Model",
-      "tags": ["Music", "Open Source", "Audio"]
+      "tags": [
+        "Music",
+        "Open Source",
+        "Audio"
+      ],
+      "subcategory_en": "Voice (TTS/STT), Audio & Music",
+      "description_en": "Open-source AI music composition model available on GitHub and Hugging Face."
     },
     {
       "name": "Suno",
@@ -1186,7 +1911,13 @@
       "category": "03-media-and-creative",
       "subcategory": "음성(TTS/STT) · 오디오 & 음악",
       "type": "App",
-      "tags": ["Music", "Vocal", "Service"]
+      "tags": [
+        "Music",
+        "Vocal",
+        "Service"
+      ],
+      "subcategory_en": "Voice (TTS/STT), Audio & Music",
+      "description_en": "Popular AI music generation service producing full songs with vocals from lyrics and style prompts."
     },
     {
       "name": "Deepgram Nova-3 / ElevenLabs / Cartesia Sonic",
@@ -1195,7 +1926,13 @@
       "category": "03-media-and-creative",
       "subcategory": "음성(TTS/STT) · 오디오 & 음악",
       "type": "App",
-      "tags": ["STT", "TTS", "API"]
+      "tags": [
+        "STT",
+        "TTS",
+        "API"
+      ],
+      "subcategory_en": "Voice (TTS/STT), Audio & Music",
+      "description_en": "Commercial voice APIs for ultra-fast STT (Deepgram Nova-3), expressive TTS (ElevenLabs v3), and real-time voice (Cartesia Sonic)."
     },
     {
       "name": "ComfyUI",
@@ -1204,8 +1941,15 @@
       "category": "03-media-and-creative",
       "subcategory": "이미지 · 3D · CAD & 웹 그래픽스",
       "type": "App",
-      "tags": ["Node Graph", "Image", "Video", "Local"],
-      "wp_url": "https://godstale.mycafe24.com/?p=855"
+      "tags": [
+        "Node Graph",
+        "Image",
+        "Video",
+        "Local"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=855",
+      "subcategory_en": "Image, 3D, CAD & Web Graphics",
+      "description_en": "Leading open-source node-graph GUI and inference engine for building custom image, video, 3D, and audio AI workflows."
     },
     {
       "name": "Meta Segment Anything (SAM)",
@@ -1214,7 +1958,13 @@
       "category": "03-media-and-creative",
       "subcategory": "이미지 · 3D · CAD & 웹 그래픽스",
       "type": "Model",
-      "tags": ["Meta", "Segmentation", "Background Removal"]
+      "tags": [
+        "Meta",
+        "Segmentation",
+        "Background Removal"
+      ],
+      "subcategory_en": "Image, 3D, CAD & Web Graphics",
+      "description_en": "Meta's segmentation model for isolating objects and removing backgrounds from images or video via text or clicks."
     },
     {
       "name": "HiDream",
@@ -1223,7 +1973,12 @@
       "category": "03-media-and-creative",
       "subcategory": "이미지 · 3D · CAD & 웹 그래픽스",
       "type": "Model",
-      "tags": ["Image Generation", "Local"]
+      "tags": [
+        "Image Generation",
+        "Local"
+      ],
+      "subcategory_en": "Image, 3D, CAD & Web Graphics",
+      "description_en": "Open-source high-quality image generation model designed to run on local GPUs."
     },
     {
       "name": "Compositor",
@@ -1232,7 +1987,13 @@
       "category": "03-media-and-creative",
       "subcategory": "이미지 · 3D · CAD & 웹 그래픽스",
       "type": "App",
-      "tags": ["Image Editor", "macOS", "Lightweight"]
+      "tags": [
+        "Image Editor",
+        "macOS",
+        "Lightweight"
+      ],
+      "subcategory_en": "Image, 3D, CAD & Web Graphics",
+      "description_en": "Ultra-lightweight (~8-10MB) open-source Photoshop alternative for macOS."
     },
     {
       "name": "WaterMarks-Remover",
@@ -1241,7 +2002,13 @@
       "category": "03-media-and-creative",
       "subcategory": "이미지 · 3D · CAD & 웹 그래픽스",
       "type": "Tool/CLI",
-      "tags": ["Image", "Metadata", "Utility"]
+      "tags": [
+        "Image",
+        "Metadata",
+        "Utility"
+      ],
+      "subcategory_en": "Image, 3D, CAD & Web Graphics",
+      "description_en": "Open-source utility for removing image watermarks and cleaning file metadata."
     },
     {
       "name": "TRELLIS.2 (Microsoft)",
@@ -1250,8 +2017,14 @@
       "category": "03-media-and-creative",
       "subcategory": "이미지 · 3D · CAD & 웹 그래픽스",
       "type": "Model",
-      "tags": ["Microsoft", "3D", "Assets"],
-      "wp_url": "https://godstale.mycafe24.com/?p=855"
+      "tags": [
+        "Microsoft",
+        "3D",
+        "Assets"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=855",
+      "subcategory_en": "Image, 3D, CAD & Web Graphics",
+      "description_en": "Microsoft's open-source 3D asset generator supporting image/text-to-3D and localized material or part editing."
     },
     {
       "name": "Modly",
@@ -1260,7 +2033,12 @@
       "category": "03-media-and-creative",
       "subcategory": "이미지 · 3D · CAD & 웹 그래픽스",
       "type": "App",
-      "tags": ["3D", "Local GPU"]
+      "tags": [
+        "3D",
+        "Local GPU"
+      ],
+      "subcategory_en": "Image, 3D, CAD & Web Graphics",
+      "description_en": "Open-source tool that generates 3D models from images or prompts using a local GPU."
     },
     {
       "name": "Rodin Gen-2.5 (Hyper3D)",
@@ -1269,7 +2047,13 @@
       "category": "03-media-and-creative",
       "subcategory": "이미지 · 3D · CAD & 웹 그래픽스",
       "type": "App",
-      "tags": ["3D", "Mesh", "Service"]
+      "tags": [
+        "3D",
+        "Mesh",
+        "Service"
+      ],
+      "subcategory_en": "Image, 3D, CAD & Web Graphics",
+      "description_en": "Commercial 3D generation platform producing detailed meshes and textures from single images or text."
     },
     {
       "name": "text-to-cad",
@@ -1278,7 +2062,13 @@
       "category": "03-media-and-creative",
       "subcategory": "이미지 · 3D · CAD & 웹 그래픽스",
       "type": "Tool/CLI",
-      "tags": ["CAD", "3D Printing", "STL"]
+      "tags": [
+        "CAD",
+        "3D Printing",
+        "STL"
+      ],
+      "subcategory_en": "Image, 3D, CAD & Web Graphics",
+      "description_en": "Open-source CAD generator that turns natural-language descriptions into STEP, STL, 3MF, and GLB 3D parts."
     },
     {
       "name": "Pascal Editor",
@@ -1287,7 +2077,14 @@
       "category": "03-media-and-creative",
       "subcategory": "이미지 · 3D · CAD & 웹 그래픽스",
       "type": "App",
-      "tags": ["3D", "Architecture", "WebGPU", "MCP"]
+      "tags": [
+        "3D",
+        "Architecture",
+        "WebGPU",
+        "MCP"
+      ],
+      "subcategory_en": "Image, 3D, CAD & Web Graphics",
+      "description_en": "Browser-first open-source 3D architectural editor with native MCP and agent-skill support."
     },
     {
       "name": "Three.js",
@@ -1296,7 +2093,13 @@
       "category": "03-media-and-creative",
       "subcategory": "이미지 · 3D · CAD & 웹 그래픽스",
       "type": "Library",
-      "tags": ["3D", "WebGL", "JavaScript"]
+      "tags": [
+        "3D",
+        "WebGL",
+        "JavaScript"
+      ],
+      "subcategory_en": "Image, 3D, CAD & Web Graphics",
+      "description_en": "Standard JavaScript library for building WebGL and WebGPU 3D scenes in the browser."
     },
     {
       "name": "Anime.js",
@@ -1305,7 +2108,13 @@
       "category": "03-media-and-creative",
       "subcategory": "이미지 · 3D · CAD & 웹 그래픽스",
       "type": "Library",
-      "tags": ["Animation", "2D", "JavaScript"]
+      "tags": [
+        "Animation",
+        "2D",
+        "JavaScript"
+      ],
+      "subcategory_en": "Image, 3D, CAD & Web Graphics",
+      "description_en": "Lightweight MIT-licensed JavaScript library for 2D, SVG, and CSS web animations."
     },
     {
       "name": "react-force-graph",
@@ -1314,7 +2123,13 @@
       "category": "03-media-and-creative",
       "subcategory": "이미지 · 3D · CAD & 웹 그래픽스",
       "type": "Library",
-      "tags": ["Graph", "React", "Visualization"]
+      "tags": [
+        "Graph",
+        "React",
+        "Visualization"
+      ],
+      "subcategory_en": "Image, 3D, CAD & Web Graphics",
+      "description_en": "React library for interactive 2D, 3D, and VR node-edge graph visualization."
     },
     {
       "name": "Meta Astryx",
@@ -1323,8 +2138,15 @@
       "category": "03-media-and-creative",
       "subcategory": "UI/UX 디자인 스킬 & Anti-Slop",
       "type": "Library",
-      "tags": ["Meta", "Design System", "React", "MCP"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1168"
+      "tags": [
+        "Meta",
+        "Design System",
+        "React",
+        "MCP"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1168",
+      "subcategory_en": "UI/UX Design Skills & Anti-Slop",
+      "description_en": "Meta's internal React 19 + StyleX design system featuring a CLI and MCP server so agents query real components without hallucinating."
     },
     {
       "name": "impeccable",
@@ -1333,7 +2155,13 @@
       "category": "03-media-and-creative",
       "subcategory": "UI/UX 디자인 스킬 & Anti-Slop",
       "type": "Skill",
-      "tags": ["Design", "Anti-Slop", "Frontend"]
+      "tags": [
+        "Design",
+        "Anti-Slop",
+        "Frontend"
+      ],
+      "subcategory_en": "UI/UX Design Skills & Anti-Slop",
+      "description_en": "Design language skill offering polish, bolder, critique, and audit commands to elevate agent-generated UIs."
     },
     {
       "name": "taste-skill",
@@ -1342,7 +2170,13 @@
       "category": "03-media-and-creative",
       "subcategory": "UI/UX 디자인 스킬 & Anti-Slop",
       "type": "Skill",
-      "tags": ["Design", "Anti-Slop", "Frontend"]
+      "tags": [
+        "Design",
+        "Anti-Slop",
+        "Frontend"
+      ],
+      "subcategory_en": "UI/UX Design Skills & Anti-Slop",
+      "description_en": "Anti-slop frontend design skill instilling clear visual taste and layout discipline into coding agents."
     },
     {
       "name": "ui-ux-pro-max-skill",
@@ -1351,7 +2185,13 @@
       "category": "03-media-and-creative",
       "subcategory": "UI/UX 디자인 스킬 & Anti-Slop",
       "type": "Skill",
-      "tags": ["UI/UX", "Design System", "Tailwind"]
+      "tags": [
+        "UI/UX",
+        "Design System",
+        "Tailwind"
+      ],
+      "subcategory_en": "UI/UX Design Skills & Anti-Slop",
+      "description_en": "Comprehensive UI/UX design intelligence skill packing 50+ styles, palettes, typography pairings, and framework guidelines."
     },
     {
       "name": "Nutlope/hallmark",
@@ -1360,7 +2200,13 @@
       "category": "03-media-and-creative",
       "subcategory": "UI/UX 디자인 스킬 & Anti-Slop",
       "type": "Skill",
-      "tags": ["Design", "Review", "Together AI"]
+      "tags": [
+        "Design",
+        "Review",
+        "Together AI"
+      ],
+      "subcategory_en": "UI/UX Design Skills & Anti-Slop",
+      "description_en": "Design review skill from Together AI that checks fonts, colors, 50 theme candidates, and 8 browser viewports to eliminate AI slop."
     },
     {
       "name": "jakubkrehel/skills",
@@ -1369,7 +2215,13 @@
       "category": "03-media-and-creative",
       "subcategory": "UI/UX 디자인 스킬 & Anti-Slop",
       "type": "Skill",
-      "tags": ["UI", "Accessibility", "Design"]
+      "tags": [
+        "UI",
+        "Accessibility",
+        "Design"
+      ],
+      "subcategory_en": "UI/UX Design Skills & Anti-Slop",
+      "description_en": "14 UI craftsmanship skills by design engineer Jakub Krehel covering spacing, typography, color, accessibility, and copy."
     },
     {
       "name": "google-labs-code/stitch-skills",
@@ -1378,7 +2230,14 @@
       "category": "03-media-and-creative",
       "subcategory": "UI/UX 디자인 스킬 & Anti-Slop",
       "type": "Skill",
-      "tags": ["Google Labs", "Stitch", "MCP", "UI"]
+      "tags": [
+        "Google Labs",
+        "Stitch",
+        "MCP",
+        "UI"
+      ],
+      "subcategory_en": "UI/UX Design Skills & Anti-Slop",
+      "description_en": "Official Google Labs skills integrating Stitch MCP for cohesive multi-page UI generation."
     },
     {
       "name": "diagram-design",
@@ -1387,7 +2246,13 @@
       "category": "03-media-and-creative",
       "subcategory": "UI/UX 디자인 스킬 & Anti-Slop",
       "type": "Skill",
-      "tags": ["Diagram", "HTML", "Visualization"]
+      "tags": [
+        "Diagram",
+        "HTML",
+        "Visualization"
+      ],
+      "subcategory_en": "UI/UX Design Skills & Anti-Slop",
+      "description_en": "Claude Code skill generating 27 types of clean, self-contained HTML architecture and concept diagrams."
     },
     {
       "name": "kill-ai-slop",
@@ -1396,7 +2261,12 @@
       "category": "03-media-and-creative",
       "subcategory": "UI/UX 디자인 스킬 & Anti-Slop",
       "type": "Skill",
-      "tags": ["Anti-Slop", "Design"]
+      "tags": [
+        "Anti-Slop",
+        "Design"
+      ],
+      "subcategory_en": "UI/UX Design Skills & Anti-Slop",
+      "description_en": "Post-processing design skill focused on stripping generic AI visual clichés from generated interfaces."
     },
     {
       "name": "im-not-ai / humanizer",
@@ -1405,7 +2275,13 @@
       "category": "03-media-and-creative",
       "subcategory": "UI/UX 디자인 스킬 & Anti-Slop",
       "type": "Skill",
-      "tags": ["Writing", "Humanizer", "Anti-Slop"]
+      "tags": [
+        "Writing",
+        "Humanizer",
+        "Anti-Slop"
+      ],
+      "subcategory_en": "UI/UX Design Skills & Anti-Slop",
+      "description_en": "Writing polish skill that removes mechanical AI phrasing and translation-like patterns for natural prose."
     },
     {
       "name": "pixelfx",
@@ -1414,8 +2290,15 @@
       "category": "04-game-dev",
       "subcategory": "픽셀 이펙트 & 스프라이트 생성",
       "type": "Library",
-      "tags": ["Pixel Art", "VFX", "Sprite Sheet", "MIT"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1155"
+      "tags": [
+        "Pixel Art",
+        "VFX",
+        "Sprite Sheet",
+        "MIT"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1155",
+      "subcategory_en": "Pixel VFX & Sprite Generation",
+      "description_en": "MIT-licensed library rendering 244 procedural pixel-art VFX (fire, explosions, ice, lightning) via code into transparent sprite sheets."
     },
     {
       "name": "sprite-gen",
@@ -1424,8 +2307,14 @@
       "category": "04-game-dev",
       "subcategory": "픽셀 이펙트 & 스프라이트 생성",
       "type": "Skill",
-      "tags": ["Sprite", "2D Game", "Claude Code"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1172"
+      "tags": [
+        "Sprite",
+        "2D Game",
+        "Claude Code"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1172",
+      "subcategory_en": "Pixel VFX & Sprite Generation",
+      "description_en": "Python CLI and agent skill generating cleanly aligned transparent 2D game sprite sheets and looping animation atlases."
     },
     {
       "name": "PerfectPixel Studio",
@@ -1434,8 +2323,14 @@
       "category": "04-game-dev",
       "subcategory": "픽셀 이펙트 & 스프라이트 생성",
       "type": "App",
-      "tags": ["Sprite", "Post-Processing", "2D Game"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1172"
+      "tags": [
+        "Sprite",
+        "Post-Processing",
+        "2D Game"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1172",
+      "subcategory_en": "Pixel VFX & Sprite Generation",
+      "description_en": "Desktop studio app fixing AI sprite artifacts (halo bleed, frame jitter) via chroma-key matting, centroid alignment, and QA loops."
     },
     {
       "name": "Agent Sprite Forge",
@@ -1444,8 +2339,14 @@
       "category": "04-game-dev",
       "subcategory": "픽셀 이펙트 & 스프라이트 생성",
       "type": "Skill",
-      "tags": ["Sprite", "Tilemap", "2D Game"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1172"
+      "tags": [
+        "Sprite",
+        "Tilemap",
+        "2D Game"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1172",
+      "subcategory_en": "Pixel VFX & Sprite Generation",
+      "description_en": "Agent skill turning a single master character image into idle, walk, run, and attack sprite sheets plus map tiles."
     },
     {
       "name": "Codixel",
@@ -1454,8 +2355,14 @@
       "category": "04-game-dev",
       "subcategory": "픽셀 이펙트 & 스프라이트 생성",
       "type": "Skill",
-      "tags": ["Pixel Art", "Claude Code", "Animation"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1172"
+      "tags": [
+        "Pixel Art",
+        "Claude Code",
+        "Animation"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1172",
+      "subcategory_en": "Pixel VFX & Sprite Generation",
+      "description_en": "Claude Code skill converting reference images into pixel-art characters with background removal, quantization, and code-driven animation."
     },
     {
       "name": "Pixelbolt",
@@ -1464,8 +2371,15 @@
       "category": "04-game-dev",
       "subcategory": "픽셀 이펙트 & 스프라이트 생성",
       "type": "MCP",
-      "tags": ["Pixel Art", "MCP", "VFX", "Deterministic"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1172"
+      "tags": [
+        "Pixel Art",
+        "MCP",
+        "VFX",
+        "Deterministic"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1172",
+      "subcategory_en": "Pixel VFX & Sprite Generation",
+      "description_en": "Deterministic pixel-art renderer (CLI, web studio, and MCP server) turning JSON recipes into sprites, tiles, and fluid VFX."
     },
     {
       "name": "Sprite Sheet Diffusion",
@@ -1474,8 +2388,14 @@
       "category": "04-game-dev",
       "subcategory": "픽셀 이펙트 & 스프라이트 생성",
       "type": "Model",
-      "tags": ["Diffusion", "Local GPU", "Sprite Sheet"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1172"
+      "tags": [
+        "Diffusion",
+        "Local GPU",
+        "Sprite Sheet"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1172",
+      "subcategory_en": "Pixel VFX & Sprite Generation",
+      "description_en": "Local diffusion model generating consistent 2D character animation frames from a reference image and pose sequence."
     },
     {
       "name": "Game-Dev Agentic Skills",
@@ -1484,7 +2404,14 @@
       "category": "04-game-dev",
       "subcategory": "게임 엔진 스킬 & 스튜디오 오케스트레이션",
       "type": "Skill",
-      "tags": ["Godot", "Bevy", "Game Dev", "Skills"]
+      "tags": [
+        "Godot",
+        "Bevy",
+        "Game Dev",
+        "Skills"
+      ],
+      "subcategory_en": "Game Engine Skills & Studio Orchestration",
+      "description_en": "Structured agent skills and genre blueprints for Godot 4.7+ and Bevy (recommended to install selectively)."
     },
     {
       "name": "Claude Code Game Studios",
@@ -1493,7 +2420,13 @@
       "category": "04-game-dev",
       "subcategory": "게임 엔진 스킬 & 스튜디오 오케스트레이션",
       "type": "Framework/Harness",
-      "tags": ["Claude Code", "Game Studio", "Multi-Agent"]
+      "tags": [
+        "Claude Code",
+        "Game Studio",
+        "Multi-Agent"
+      ],
+      "subcategory_en": "Game Engine Skills & Studio Orchestration",
+      "description_en": "Multi-agent studio framework organizing Claude Code into specialized game-dev roles (design, engineering, QA, production)."
     },
     {
       "name": "Kenney Assets",
@@ -1502,8 +2435,16 @@
       "category": "04-game-dev",
       "subcategory": "무료 에셋 & 플레이어블 프로토타이핑",
       "type": "Resource/Guide",
-      "tags": ["CC0", "Free Assets", "2D", "3D", "Audio"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1172"
+      "tags": [
+        "CC0",
+        "Free Assets",
+        "2D",
+        "3D",
+        "Audio"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1172",
+      "subcategory_en": "Free Assets & Playable Prototyping",
+      "description_en": "Standard indie game asset library offering CC0 public-domain 2D sprites, tiles, UI, 3D low-poly models, and audio."
     },
     {
       "name": "Higgsfield Playable",
@@ -1512,8 +2453,14 @@
       "category": "04-game-dev",
       "subcategory": "무료 에셋 & 플레이어블 프로토타이핑",
       "type": "App",
-      "tags": ["Browser Game", "Prototyping", "AI Game"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1168"
+      "tags": [
+        "Browser Game",
+        "Prototyping",
+        "AI Game"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1168",
+      "subcategory_en": "Free Assets & Playable Prototyping",
+      "description_en": "Prototyping platform generating playable browser-game code and assets from text prompts or gameplay reference videos."
     },
     {
       "name": "AnyPS5",
@@ -1522,7 +2469,13 @@
       "category": "04-game-dev",
       "subcategory": "무료 에셋 & 플레이어블 프로토타이핑",
       "type": "Tool/CLI",
-      "tags": ["PS5", "Recompiler", "Experimental"]
+      "tags": [
+        "PS5",
+        "Recompiler",
+        "Experimental"
+      ],
+      "subcategory_en": "Free Assets & Playable Prototyping",
+      "description_en": "Experimental open-source tool re-linking PS5 executables to run natively on Linux and Windows without an emulator."
     },
     {
       "name": "Microsoft AI-For-Beginners",
@@ -1531,8 +2484,15 @@
       "category": "05-education-and-research",
       "subcategory": "오픈 커리큘럼 & 학습 프로젝트",
       "type": "Resource/Guide",
-      "tags": ["Microsoft", "Curriculum", "PyTorch", "TensorFlow"],
-      "wp_url": "https://godstale.mycafe24.com/?p=853"
+      "tags": [
+        "Microsoft",
+        "Curriculum",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=853",
+      "subcategory_en": "Open Curricula & Hands-On Projects",
+      "description_en": "Microsoft's free 24-lesson introductory AI curriculum covering both PyTorch and TensorFlow."
     },
     {
       "name": "LLM Agent Book (AI-Agent-Book)",
@@ -1541,8 +2501,14 @@
       "category": "05-education-and-research",
       "subcategory": "오픈 커리큘럼 & 학습 프로젝트",
       "type": "Resource/Guide",
-      "tags": ["Book", "AI Agent", "Hands-on"],
-      "wp_url": "https://godstale.mycafe24.com/?p=853"
+      "tags": [
+        "Book",
+        "AI Agent",
+        "Hands-on"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=853",
+      "subcategory_en": "Open Curricula & Hands-On Projects",
+      "description_en": "Open-source textbook on AI agent architecture design with 90+ hands-on code examples."
     },
     {
       "name": "500+ AI/ML/DL Projects with Code",
@@ -1551,7 +2517,13 @@
       "category": "05-education-and-research",
       "subcategory": "오픈 커리큘럼 & 학습 프로젝트",
       "type": "Resource/Guide",
-      "tags": ["Projects", "ML", "Deep Learning"]
+      "tags": [
+        "Projects",
+        "ML",
+        "Deep Learning"
+      ],
+      "subcategory_en": "Open Curricula & Hands-On Projects",
+      "description_en": "Open learning repository compiling hundreds of hands-on ML, deep learning, vision, NLP, and agent projects."
     },
     {
       "name": "awesome-llm-apps",
@@ -1560,8 +2532,14 @@
       "category": "05-education-and-research",
       "subcategory": "오픈 커리큘럼 & 학습 프로젝트",
       "type": "Resource/Guide",
-      "tags": ["RAG", "AI Agent", "Examples"],
-      "wp_url": "https://godstale.mycafe24.com/?p=801"
+      "tags": [
+        "RAG",
+        "AI Agent",
+        "Examples"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=801",
+      "subcategory_en": "Open Curricula & Hands-On Projects",
+      "description_en": "Practical showcase repository with 100+ clone-and-run AI agent and RAG application examples."
     },
     {
       "name": "nanochat (Andrej Karpathy)",
@@ -1570,8 +2548,14 @@
       "category": "05-education-and-research",
       "subcategory": "오픈 커리큘럼 & 학습 프로젝트",
       "type": "Resource/Guide",
-      "tags": ["Karpathy", "LLM Training", "Education"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1155"
+      "tags": [
+        "Karpathy",
+        "LLM Training",
+        "Education"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1155",
+      "subcategory_en": "Open Curricula & Hands-On Projects",
+      "description_en": "Educational open-source project by Andrej Karpathy for training and running a minimal ChatGPT from scratch via a single script."
     },
     {
       "name": "DeepTutor",
@@ -1580,8 +2564,14 @@
       "category": "05-education-and-research",
       "subcategory": "AI 튜터 · 교실 & 학습 보조 스킬",
       "type": "App",
-      "tags": ["Tutor", "Personalized Learning", "Education"],
-      "wp_url": "https://godstale.mycafe24.com/?p=853"
+      "tags": [
+        "Tutor",
+        "Personalized Learning",
+        "Education"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=853",
+      "subcategory_en": "AI Tutors, Classrooms & Learning Skills",
+      "description_en": "Open-source personal AI tutor that tracks long-term learning history and generates tailored curricula."
     },
     {
       "name": "OpenMAIC",
@@ -1590,8 +2580,14 @@
       "category": "05-education-and-research",
       "subcategory": "AI 튜터 · 교실 & 학습 보조 스킬",
       "type": "App",
-      "tags": ["Classroom", "Multi-Agent", "Education"],
-      "wp_url": "https://godstale.mycafe24.com/?p=853"
+      "tags": [
+        "Classroom",
+        "Multi-Agent",
+        "Education"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=853",
+      "subcategory_en": "AI Tutors, Classrooms & Learning Skills",
+      "description_en": "Multi-agent AI classroom generating slides, quizzes, simulations, and peer discussions from any topic."
     },
     {
       "name": "book-to-skill",
@@ -1600,7 +2596,13 @@
       "category": "05-education-and-research",
       "subcategory": "AI 튜터 · 교실 & 학습 보조 스킬",
       "type": "Tool/CLI",
-      "tags": ["PDF", "Learning", "Skill"]
+      "tags": [
+        "PDF",
+        "Learning",
+        "Skill"
+      ],
+      "subcategory_en": "AI Tutors, Classrooms & Learning Skills",
+      "description_en": "Splits technical PDF books into chapter-level agent skills loaded on demand to save tokens (do not redistribute copyrighted books)."
     },
     {
       "name": "academic-research-skills",
@@ -1609,7 +2611,13 @@
       "category": "05-education-and-research",
       "subcategory": "학술 논문 & 과학 연구 파이프라인",
       "type": "Skill",
-      "tags": ["Academic", "Paper", "Research"]
+      "tags": [
+        "Academic",
+        "Paper",
+        "Research"
+      ],
+      "subcategory_en": "Academic Paper & Scientific Research Pipelines",
+      "description_en": "End-to-end academic research skill pipeline covering literature review, structuring, drafting, and final checks."
     },
     {
       "name": "PaperOrchestra",
@@ -1618,7 +2626,13 @@
       "category": "05-education-and-research",
       "subcategory": "학술 논문 & 과학 연구 파이프라인",
       "type": "Framework/Harness",
-      "tags": ["Paper", "Multi-Agent", "Research"]
+      "tags": [
+        "Paper",
+        "Multi-Agent",
+        "Research"
+      ],
+      "subcategory_en": "Academic Paper & Scientific Research Pipelines",
+      "description_en": "Multi-agent pipeline coordinating literature review, plotting, outlining, and drafting for academic papers."
     },
     {
       "name": "Scientific Agent Skills",
@@ -1627,7 +2641,13 @@
       "category": "05-education-and-research",
       "subcategory": "학술 논문 & 과학 연구 파이프라인",
       "type": "Skill",
-      "tags": ["Science", "Bio", "Data Analysis"]
+      "tags": [
+        "Science",
+        "Bio",
+        "Data Analysis"
+      ],
+      "subcategory_en": "Academic Paper & Scientific Research Pipelines",
+      "description_en": "160+ scientific research skills covering biology, chemistry, medicine, physics, and data-analysis tool verification."
     },
     {
       "name": "System Prompts Leaks Archive",
@@ -1636,7 +2656,12 @@
       "category": "05-education-and-research",
       "subcategory": "프롬프트 참고 자료",
       "type": "Resource/Guide",
-      "tags": ["System Prompt", "Prompt Engineering"]
+      "tags": [
+        "System Prompt",
+        "Prompt Engineering"
+      ],
+      "subcategory_en": "Prompt References",
+      "description_en": "Educational archive of publicly documented system prompt patterns from major AI assistants."
     },
     {
       "name": "llama.cpp",
@@ -1645,8 +2670,14 @@
       "category": "06-local-ai-and-infra",
       "subcategory": "로컬 LLM 추론 & 파인튜닝 엔진",
       "type": "Framework/Harness",
-      "tags": ["Local LLM", "GGUF", "C++"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1100"
+      "tags": [
+        "Local LLM",
+        "GGUF",
+        "C++"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1100",
+      "subcategory_en": "Local LLM Inference & Fine-Tuning Engines",
+      "description_en": "Standard C/C++ inference engine for fast, quantized local LLM execution using the GGUF format."
     },
     {
       "name": "vLLM",
@@ -1655,8 +2686,14 @@
       "category": "06-local-ai-and-infra",
       "subcategory": "로컬 LLM 추론 & 파인튜닝 엔진",
       "type": "Framework/Harness",
-      "tags": ["Inference", "PagedAttention", "Serving"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1100"
+      "tags": [
+        "Inference",
+        "PagedAttention",
+        "Serving"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1100",
+      "subcategory_en": "Local LLM Inference & Fine-Tuning Engines",
+      "description_en": "High-throughput production LLM serving engine powered by PagedAttention."
     },
     {
       "name": "Strata",
@@ -1665,8 +2702,14 @@
       "category": "06-local-ai-and-infra",
       "subcategory": "로컬 LLM 추론 & 파인튜닝 엔진",
       "type": "Framework/Harness",
-      "tags": ["Local LLM", "MoE", "Inference"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1100"
+      "tags": [
+        "Local LLM",
+        "MoE",
+        "Inference"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1100",
+      "subcategory_en": "Local LLM Inference & Fine-Tuning Engines",
+      "description_en": "Local inference engine optimized for running ultra-large Mixture-of-Experts (MoE) models on consumer hardware."
     },
     {
       "name": "Colibri",
@@ -1675,8 +2718,14 @@
       "category": "06-local-ai-and-infra",
       "subcategory": "로컬 LLM 추론 & 파인튜닝 엔진",
       "type": "Framework/Harness",
-      "tags": ["Local LLM", "SSD Offload", "MoE"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1155"
+      "tags": [
+        "Local LLM",
+        "SSD Offload",
+        "MoE"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1155",
+      "subcategory_en": "Local LLM Inference & Fine-Tuning Engines",
+      "description_en": "Local LLM engine that streams active experts from SSD storage to run hundreds-of-billions-parameter models with limited RAM."
     },
     {
       "name": "AirLLM",
@@ -1685,7 +2734,13 @@
       "category": "06-local-ai-and-infra",
       "subcategory": "로컬 LLM 추론 & 파인튜닝 엔진",
       "type": "Library",
-      "tags": ["Low VRAM", "Local LLM", "Python"]
+      "tags": [
+        "Low VRAM",
+        "Local LLM",
+        "Python"
+      ],
+      "subcategory_en": "Local LLM Inference & Fine-Tuning Engines",
+      "description_en": "Python library loading one model layer at a time to run large LLMs on low-VRAM GPUs."
     },
     {
       "name": "FreeToken",
@@ -1694,8 +2749,14 @@
       "category": "06-local-ai-and-infra",
       "subcategory": "로컬 LLM 추론 & 파인튜닝 엔진",
       "type": "Framework/Harness",
-      "tags": ["Local LLM", "Fast Inference", "NVIDIA"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1155"
+      "tags": [
+        "Local LLM",
+        "Fast Inference",
+        "NVIDIA"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1155",
+      "subcategory_en": "Local LLM Inference & Fine-Tuning Engines",
+      "description_en": "Fast local inference engine keeping hot weights on GPU so 8GB NVIDIA Linux laptops can run large local coding models."
     },
     {
       "name": "Unsloth",
@@ -1704,8 +2765,14 @@
       "category": "06-local-ai-and-infra",
       "subcategory": "로컬 LLM 추론 & 파인튜닝 엔진",
       "type": "Library",
-      "tags": ["Fine-tuning", "LoRA", "Local LLM"],
-      "wp_url": "https://godstale.mycafe24.com/?p=848"
+      "tags": [
+        "Fine-tuning",
+        "LoRA",
+        "Local LLM"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=848",
+      "subcategory_en": "Local LLM Inference & Fine-Tuning Engines",
+      "description_en": "Open-source fine-tuning library accelerating local LLM training while cutting GPU memory usage."
     },
     {
       "name": "Open WebUI",
@@ -1714,7 +2781,13 @@
       "category": "06-local-ai-and-infra",
       "subcategory": "로컬 LLM 추론 & 파인튜닝 엔진",
       "type": "App",
-      "tags": ["Chat UI", "Self-Hosted", "Local LLM"]
+      "tags": [
+        "Chat UI",
+        "Self-Hosted",
+        "Local LLM"
+      ],
+      "subcategory_en": "Local LLM Inference & Fine-Tuning Engines",
+      "description_en": "Self-hosted ChatGPT-style web interface for local and API models with real-time voice conversation support."
     },
     {
       "name": "OmniRoute",
@@ -1723,7 +2796,13 @@
       "category": "06-local-ai-and-infra",
       "subcategory": "LLM 게이트웨이 & 초경량 모델",
       "type": "Tool/CLI",
-      "tags": ["Gateway", "Router", "MIT"]
+      "tags": [
+        "Gateway",
+        "Router",
+        "MIT"
+      ],
+      "subcategory_en": "LLM Gateways & Ultra-Light Edge Models",
+      "description_en": "MIT-licensed open-source LLM gateway routing hundreds of models behind a single unified API endpoint."
     },
     {
       "name": "freellmapi",
@@ -1732,7 +2811,13 @@
       "category": "06-local-ai-and-infra",
       "subcategory": "LLM 게이트웨이 & 초경량 모델",
       "type": "Resource/Guide",
-      "tags": ["Free API", "LLM", "Experiment"]
+      "tags": [
+        "Free API",
+        "LLM",
+        "Experiment"
+      ],
+      "subcategory_en": "LLM Gateways & Ultra-Light Edge Models",
+      "description_en": "Community directory cataloging 34 free-tier LLM providers and 600+ endpoints for personal experimentation."
     },
     {
       "name": "Cactus Compute (Needle & Mirage)",
@@ -1741,7 +2826,14 @@
       "category": "06-local-ai-and-infra",
       "subcategory": "LLM 게이트웨이 & 초경량 모델",
       "type": "Model",
-      "tags": ["Edge AI", "Tiny Model", "Vision", "Tool Calling"]
+      "tags": [
+        "Edge AI",
+        "Tiny Model",
+        "Vision",
+        "Tool Calling"
+      ],
+      "subcategory_en": "LLM Gateways & Ultra-Light Edge Models",
+      "description_en": "Ultra-light edge AI suite featuring a 14MB tool-calling model (Needle) and a 22MB single-pass vision/OCR model (Mirage)."
     },
     {
       "name": "MarkItDown (Microsoft)",
@@ -1750,8 +2842,14 @@
       "category": "06-local-ai-and-infra",
       "subcategory": "문서 파싱 & OCR",
       "type": "Tool/CLI",
-      "tags": ["Microsoft", "Document Parsing", "Markdown"],
-      "wp_url": "https://godstale.mycafe24.com/?p=867"
+      "tags": [
+        "Microsoft",
+        "Document Parsing",
+        "Markdown"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=867",
+      "subcategory_en": "Document Parsing & OCR",
+      "description_en": "Fast Microsoft utility converting PDF, Word, Excel, and PowerPoint files into clean LLM-friendly Markdown."
     },
     {
       "name": "Docling (IBM)",
@@ -1760,7 +2858,13 @@
       "category": "06-local-ai-and-infra",
       "subcategory": "문서 파싱 & OCR",
       "type": "Library",
-      "tags": ["Document Parsing", "Tables", "PDF"]
+      "tags": [
+        "Document Parsing",
+        "Tables",
+        "PDF"
+      ],
+      "subcategory_en": "Document Parsing & OCR",
+      "description_en": "IBM's open-source document parsing library with strong accuracy on complex tables and scanned PDFs."
     },
     {
       "name": "PaddleOCR (PaddleOCR-VL)",
@@ -1769,8 +2873,14 @@
       "category": "06-local-ai-and-infra",
       "subcategory": "문서 파싱 & OCR",
       "type": "Library",
-      "tags": ["OCR", "Scan", "Open Source"],
-      "wp_url": "https://godstale.mycafe24.com/?p=855"
+      "tags": [
+        "OCR",
+        "Scan",
+        "Open Source"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=855",
+      "subcategory_en": "Document Parsing & OCR",
+      "description_en": "Open-source multilingual OCR engine excelling at scans, tables, flowcharts, and photographed numbers."
     },
     {
       "name": "MinerU 2.5",
@@ -1779,8 +2889,14 @@
       "category": "06-local-ai-and-infra",
       "subcategory": "문서 파싱 & OCR",
       "type": "Tool/CLI",
-      "tags": ["OCR", "PDF", "Paper"],
-      "wp_url": "https://godstale.mycafe24.com/?p=855"
+      "tags": [
+        "OCR",
+        "PDF",
+        "Paper"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=855",
+      "subcategory_en": "Document Parsing & OCR",
+      "description_en": "Open-source PDF and academic paper OCR tool extracting formulas and tables cleanly into Markdown."
     },
     {
       "name": "NVIDIA OpenShell",
@@ -1789,7 +2905,13 @@
       "category": "06-local-ai-and-infra",
       "subcategory": "에이전트 샌드박스 & OS 유틸리티",
       "type": "Tool/CLI",
-      "tags": ["NVIDIA", "Sandbox", "Security"]
+      "tags": [
+        "NVIDIA",
+        "Sandbox",
+        "Security"
+      ],
+      "subcategory_en": "Agent Sandboxes & OS Utilities",
+      "description_en": "Open-source policy-based sandbox from NVIDIA isolating agent file, process, network, and credential access."
     },
     {
       "name": "CubeSandbox",
@@ -1798,7 +2920,12 @@
       "category": "06-local-ai-and-infra",
       "subcategory": "에이전트 샌드박스 & OS 유틸리티",
       "type": "Tool/CLI",
-      "tags": ["Sandbox", "Isolation"]
+      "tags": [
+        "Sandbox",
+        "Isolation"
+      ],
+      "subcategory_en": "Agent Sandboxes & OS Utilities",
+      "description_en": "Ultra-lightweight sandbox from Tencent Cloud for safely isolating AI agent code execution."
     },
     {
       "name": "Flue",
@@ -1807,7 +2934,12 @@
       "category": "06-local-ai-and-infra",
       "subcategory": "에이전트 샌드박스 & OS 유틸리티",
       "type": "Tool/CLI",
-      "tags": ["Sandbox", "Agent"]
+      "tags": [
+        "Sandbox",
+        "Agent"
+      ],
+      "subcategory_en": "Agent Sandboxes & OS Utilities",
+      "description_en": "Lightweight open-source sandbox environment for safe automated agent execution."
     },
     {
       "name": "Omarchy v4.0",
@@ -1816,7 +2948,13 @@
       "category": "06-local-ai-and-infra",
       "subcategory": "에이전트 샌드박스 & OS 유틸리티",
       "type": "App",
-      "tags": ["Linux", "Arch", "OS"]
+      "tags": [
+        "Linux",
+        "Arch",
+        "OS"
+      ],
+      "subcategory_en": "Agent Sandboxes & OS Utilities",
+      "description_en": "Developer-focused Arch Linux distribution maintained by Basecamp's Omacom foundation."
     },
     {
       "name": "Hyprland",
@@ -1825,7 +2963,13 @@
       "category": "06-local-ai-and-infra",
       "subcategory": "에이전트 샌드박스 & OS 유틸리티",
       "type": "App",
-      "tags": ["Linux", "Window Manager", "Desktop"]
+      "tags": [
+        "Linux",
+        "Window Manager",
+        "Desktop"
+      ],
+      "subcategory_en": "Agent Sandboxes & OS Utilities",
+      "description_en": "Dynamic tiling Wayland compositor for Linux with smooth animations and flexible layouts."
     },
     {
       "name": "OpenLogi",
@@ -1834,7 +2978,13 @@
       "category": "06-local-ai-and-infra",
       "subcategory": "에이전트 샌드박스 & OS 유틸리티",
       "type": "App",
-      "tags": ["Rust", "Logitech", "Utility"]
+      "tags": [
+        "Rust",
+        "Logitech",
+        "Utility"
+      ],
+      "subcategory_en": "Agent Sandboxes & OS Utilities",
+      "description_en": "Lightweight open-source Rust alternative to Logitech Options+ for mouse and keyboard configuration."
     },
     {
       "name": "DiscImageStudio",
@@ -1843,7 +2993,13 @@
       "category": "06-local-ai-and-infra",
       "subcategory": "에이전트 샌드박스 & OS 유틸리티",
       "type": "App",
-      "tags": ["Optical Disc", "Utility", "C#"]
+      "tags": [
+        "Optical Disc",
+        "Utility",
+        "C#"
+      ],
+      "subcategory_en": "Agent Sandboxes & OS Utilities",
+      "description_en": "Open-source C# tool that converts artwork into optical disc data for etching visible images onto CD/DVD/BD-R surfaces."
     },
     {
       "name": "openai/codex-security",
@@ -1852,8 +3008,15 @@
       "category": "07-security-and-osint",
       "subcategory": "보안 감사 · 취약점 점검 & 스킬 스캐너",
       "type": "Tool/CLI",
-      "tags": ["OpenAI", "AppSec", "Vulnerability", "CLI"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1168"
+      "tags": [
+        "OpenAI",
+        "AppSec",
+        "Vulnerability",
+        "CLI"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1168",
+      "subcategory_en": "Security Audits, Vulnerability Checks & Skill Scanners",
+      "description_en": "Official OpenAI AppSec CLI and SDK that builds threat models, verifies vulnerabilities in sandboxes, and proposes patches."
     },
     {
       "name": "Cloudflare security-audit-skill",
@@ -1862,8 +3025,14 @@
       "category": "07-security-and-osint",
       "subcategory": "보안 감사 · 취약점 점검 & 스킬 스캐너",
       "type": "Skill",
-      "tags": ["Cloudflare", "Security Audit", "Skill"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1155"
+      "tags": [
+        "Cloudflare",
+        "Security Audit",
+        "Skill"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1155",
+      "subcategory_en": "Security Audits, Vulnerability Checks & Skill Scanners",
+      "description_en": "Open-source multi-stage security audit skill from Cloudflare turning coding agents into consistent security reviewers."
     },
     {
       "name": "NVIDIA SkillSpector",
@@ -1872,7 +3041,13 @@
       "category": "07-security-and-osint",
       "subcategory": "보안 감사 · 취약점 점검 & 스킬 스캐너",
       "type": "Tool/CLI",
-      "tags": ["NVIDIA", "Security", "Malware Detection"]
+      "tags": [
+        "NVIDIA",
+        "Security",
+        "Malware Detection"
+      ],
+      "subcategory_en": "Security Audits, Vulnerability Checks & Skill Scanners",
+      "description_en": "Security scanner from NVIDIA that inspects third-party agent skills for hidden malware and prompt injection."
     },
     {
       "name": "Claude-BugHunter",
@@ -1881,8 +3056,14 @@
       "category": "07-security-and-osint",
       "subcategory": "보안 감사 · 취약점 점검 & 스킬 스캐너",
       "type": "Skill",
-      "tags": ["Bug Bounty", "Pentest", "Authorized Only"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1168"
+      "tags": [
+        "Bug Bounty",
+        "Pentest",
+        "Authorized Only"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1168",
+      "subcategory_en": "Security Audits, Vulnerability Checks & Skill Scanners",
+      "description_en": "Bug bounty and penetration-testing workflow skills (use strictly on owned or written-authorized targets)."
     },
     {
       "name": "Craft Anything",
@@ -1891,8 +3072,15 @@
       "category": "07-security-and-osint",
       "subcategory": "리버스 엔지니어링 & 클린룸 분석",
       "type": "MCP",
-      "tags": ["Clean Room", "MCP", "Rust", "Analysis"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1168"
+      "tags": [
+        "Clean Room",
+        "MCP",
+        "Rust",
+        "Analysis"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1168",
+      "subcategory_en": "Reverse Engineering & Clean-Room Analysis",
+      "description_en": "Rust-based MCP and CLI engine performing clean-room (Study→Build→Check) software analysis and reconstruction (respect copyright/ToS)."
     },
     {
       "name": "REA (Reverse Engineer Anything)",
@@ -1901,8 +3089,14 @@
       "category": "07-security-and-osint",
       "subcategory": "리버스 엔지니어링 & 클린룸 분석",
       "type": "MCP",
-      "tags": ["Reverse Engineering", "MCP", "Local"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1113"
+      "tags": [
+        "Reverse Engineering",
+        "MCP",
+        "Local"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1113",
+      "subcategory_en": "Reverse Engineering & Clean-Room Analysis",
+      "description_en": "Local-first MCP tool and skill for analyzing binaries, apps, and websites (verify legal and license scope)."
     },
     {
       "name": "reverse-skill",
@@ -1911,7 +3105,13 @@
       "category": "07-security-and-osint",
       "subcategory": "리버스 엔지니어링 & 클린룸 분석",
       "type": "Skill",
-      "tags": ["Reverse Engineering", "Ghidra", "IDA"]
+      "tags": [
+        "Reverse Engineering",
+        "Ghidra",
+        "IDA"
+      ],
+      "subcategory_en": "Reverse Engineering & Clean-Room Analysis",
+      "description_en": "Single-router skill collection unifying 20+ reverse-engineering and pentesting workflows for IDA and Ghidra."
     },
     {
       "name": "Ghidra",
@@ -1920,7 +3120,13 @@
       "category": "07-security-and-osint",
       "subcategory": "리버스 엔지니어링 & 클린룸 분석",
       "type": "App",
-      "tags": ["NSA", "Reverse Engineering", "Decompiler"]
+      "tags": [
+        "NSA",
+        "Reverse Engineering",
+        "Decompiler"
+      ],
+      "subcategory_en": "Reverse Engineering & Clean-Room Analysis",
+      "description_en": "Open-source software reverse-engineering framework developed by the NSA."
     },
     {
       "name": "Sherlock",
@@ -1929,7 +3135,13 @@
       "category": "07-security-and-osint",
       "subcategory": "OSINT · 계정 보안 & 통합 인증",
       "type": "Tool/CLI",
-      "tags": ["OSINT", "Username", "Python"]
+      "tags": [
+        "OSINT",
+        "Username",
+        "Python"
+      ],
+      "subcategory_en": "OSINT, Account Checks & Self-Hosted Auth",
+      "description_en": "Open-source OSINT tool that checks username availability across 400+ websites."
     },
     {
       "name": "Holehe",
@@ -1938,7 +3150,13 @@
       "category": "07-security-and-osint",
       "subcategory": "OSINT · 계정 보안 & 통합 인증",
       "type": "Tool/CLI",
-      "tags": ["OSINT", "Email", "Security Check"]
+      "tags": [
+        "OSINT",
+        "Email",
+        "Security Check"
+      ],
+      "subcategory_en": "OSINT, Account Checks & Self-Hosted Auth",
+      "description_en": "OSINT security-check CLI verifying which online services an email address is registered on."
     },
     {
       "name": "authentik",
@@ -1947,7 +3165,13 @@
       "category": "07-security-and-osint",
       "subcategory": "OSINT · 계정 보안 & 통합 인증",
       "type": "App",
-      "tags": ["SSO", "Auth", "Self-Hosted"]
+      "tags": [
+        "SSO",
+        "Auth",
+        "Self-Hosted"
+      ],
+      "subcategory_en": "OSINT, Account Checks & Self-Hosted Auth",
+      "description_en": "Self-hosted open-source identity provider supporting SSO, OAuth2, SAML, and LDAP."
     },
     {
       "name": "Heretic",
@@ -1956,8 +3180,14 @@
       "category": "07-security-and-osint",
       "subcategory": "OSINT · 계정 보안 & 통합 인증",
       "type": "Tool/CLI",
-      "tags": ["Model Steering", "Research", "LLM"],
-      "wp_url": "https://godstale.mycafe24.com/?p=1155"
+      "tags": [
+        "Model Steering",
+        "Research",
+        "LLM"
+      ],
+      "wp_url": "https://godstale.mycafe24.com/?p=1155",
+      "subcategory_en": "OSINT, Account Checks & Self-Hosted Auth",
+      "description_en": "Research tool for adjusting refusal behavior and tone in open-weight models without retraining (use responsibly)."
     }
   ]
 }

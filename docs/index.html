@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Agent Toolbox — AI 에이전트 도구·스킬 검색</title>
+  <title>Agent Toolbox — AI Agent Tools & Skills Search</title>
   <style>
     :root {
       --bg: #0f172a;
@@ -64,25 +64,33 @@
     }
     .header-links {
       display: flex;
-      gap: 10px;
+      gap: 8px;
       flex-wrap: wrap;
+      align-items: center;
     }
-    .btn-link {
+    .btn-link, .lang-btn {
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      padding: 8px 14px;
+      padding: 8px 13px;
       border-radius: 8px;
       border: 1px solid var(--border);
       background: var(--surface);
       color: var(--text);
       text-decoration: none;
-      font-size: 0.88rem;
+      font-size: 0.86rem;
       font-weight: 500;
+      cursor: pointer;
     }
-    .btn-link:hover {
+    .btn-link:hover, .lang-btn:hover {
       border-color: var(--accent);
       color: var(--accent);
+    }
+    .lang-btn.active {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+      color: var(--accent);
+      font-weight: 700;
     }
     .search-box-wrap {
       position: relative;
@@ -266,28 +274,28 @@
     <header>
       <div>
         <h1>🧰 Agent Toolbox</h1>
-        <p class="subtitle">AI 에이전트·스킬·오픈소스·앱 분야별 실시간 검색 카탈로그</p>
+        <p id="subtitle" class="subtitle"></p>
       </div>
       <div class="header-links">
-        <a class="btn-link" href="https://github.com/godstale/Agent-Toolbox" target="_blank" rel="noopener">GitHub 저장소</a>
-        <a class="btn-link" href="https://godstale.mycafe24.com/?p=1115" target="_blank" rel="noopener">블로그 총정리 허브</a>
+        <button id="langEnBtn" class="lang-btn" type="button">EN</button>
+        <button id="langKoBtn" class="lang-btn" type="button">한국어</button>
+        <a id="repoLink" class="btn-link" href="https://github.com/godstale/Agent-Toolbox" target="_blank" rel="noopener">GitHub</a>
+        <a id="blogLink" class="btn-link" href="https://godstale.mycafe24.com/?p=1115" target="_blank" rel="noopener">Blog Hub</a>
       </div>
     </header>
 
     <div class="search-box-wrap">
-      <input id="searchInput" type="search" placeholder="도구 이름, 설명, 태그, 분야로 검색하세요 (예: Claude Code, MCP, Sprite, OCR, 보안)..." autocomplete="off" />
+      <input id="searchInput" type="search" autocomplete="off" />
       <span class="kbd-hint">/</span>
     </div>
 
     <div id="categoryFilters" class="filters"></div>
 
     <div class="meta-bar">
-      <span id="resultCount">불러오는 중...</span>
+      <span id="resultCount">Loading...</span>
       <div>
-        <label for="typeSelect">유형: </label>
-        <select id="typeSelect" class="type-select">
-          <option value="all">전체 유형</option>
-        </select>
+        <label id="typeLabel" for="typeSelect">Type: </label>
+        <select id="typeSelect" class="type-select"></select>
       </div>
     </div>
 
@@ -298,12 +306,52 @@
     let allData = null;
     let selectedCat = "all";
     let selectedType = "all";
+    let lang = "en";
+
+    const UI = {
+      en: {
+        title: "Agent Toolbox — AI Agent Tools & Skills Search",
+        subtitle: "Instant search directory for AI agent open-source projects, skills, MCP servers, and apps",
+        placeholder: "Search by tool name, description, tag, or category (e.g., Claude Code, MCP, Sprite, OCR, Security)...",
+        repoLabel: "GitHub Repo",
+        repoUrl: "https://github.com/godstale/Agent-Toolbox/blob/main/README.md",
+        blogLabel: "Blog Hub (KR)",
+        allCats: (n) => `All (${n})`,
+        typeLabel: "Type: ",
+        allTypes: "All Types",
+        count: (f, t, u) => `Showing ${f} of ${t} tools (Updated: ${u})`,
+        empty: "No matching tools found. Try a different keyword.",
+        guide: "Guide (KR) ↗",
+        open: "Open ↗"
+      },
+      ko: {
+        title: "Agent Toolbox — AI 에이전트 도구·스킬 검색",
+        subtitle: "AI 에이전트·스킬·오픈소스·앱 분야별 실시간 검색 카탈로그",
+        placeholder: "도구 이름, 설명, 태그, 분야로 검색하세요 (예: Claude Code, MCP, Sprite, OCR, 보안)...",
+        repoLabel: "GitHub 저장소 (한글)",
+        repoUrl: "https://github.com/godstale/Agent-Toolbox/blob/main/README.ko.md",
+        blogLabel: "블로그 총정리 허브",
+        allCats: (n) => `전체 (${n})`,
+        typeLabel: "유형: ",
+        allTypes: "전체 유형",
+        count: (f, t, u) => `검색 결과: ${f}개 / 전체 ${t}개 (업데이트: ${u})`,
+        empty: "조건에 맞는 도구를 찾지 못했습니다. 다른 키워드로 검색해 보세요.",
+        guide: "가이드 ↗",
+        open: "열기 ↗"
+      }
+    };
 
     const searchInput = document.getElementById("searchInput");
     const categoryFilters = document.getElementById("categoryFilters");
     const typeSelect = document.getElementById("typeSelect");
     const resultCount = document.getElementById("resultCount");
     const grid = document.getElementById("grid");
+    const subtitleEl = document.getElementById("subtitle");
+    const repoLink = document.getElementById("repoLink");
+    const blogLink = document.getElementById("blogLink");
+    const typeLabel = document.getElementById("typeLabel");
+    const langEnBtn = document.getElementById("langEnBtn");
+    const langKoBtn = document.getElementById("langKoBtn");
 
     function escapeHtml(str) {
       return String(str)
@@ -313,18 +361,50 @@
         .replace(/"/g, "&quot;");
     }
 
+    function detectInitialLang() {
+      const params = new URLSearchParams(window.location.search);
+      const urlLang = params.get("lang");
+      if (urlLang === "en" || urlLang === "ko") return urlLang;
+      const saved = localStorage.getItem("agent_toolbox_lang");
+      if (saved === "en" || saved === "ko") return saved;
+      const nav = (navigator.language || "en").toLowerCase();
+      return nav.startsWith("ko") ? "ko" : "en";
+    }
+
+    function applyLangUI() {
+      const ui = UI[lang];
+      document.documentElement.lang = lang;
+      document.title = ui.title;
+      subtitleEl.textContent = ui.subtitle;
+      searchInput.placeholder = ui.placeholder;
+      repoLink.textContent = ui.repoLabel;
+      repoLink.href = ui.repoUrl;
+      blogLink.textContent = ui.blogLabel;
+      typeLabel.textContent = ui.typeLabel;
+      langEnBtn.classList.toggle("active", lang === "en");
+      langKoBtn.classList.toggle("active", lang === "ko");
+
+      const currentType = selectedType;
+      const types = [...new Set(allData.tools.map(t => t.type).filter(Boolean))].sort();
+      typeSelect.innerHTML = `<option value="all">${escapeHtml(ui.allTypes)}</option>` +
+        types.map(tp => `<option value="${escapeHtml(tp)}">${escapeHtml(tp)}</option>`).join("");
+      typeSelect.value = currentType;
+    }
+
     function renderFilters() {
+      const ui = UI[lang];
       const catCounts = {};
       allData.tools.forEach(t => {
         catCounts[t.category] = (catCounts[t.category] || 0) + 1;
       });
 
       const buttons = [
-        `<button class="pill ${selectedCat === "all" ? "active" : ""}" data-cat="all">전체 (${allData.tools.length})</button>`
+        `<button class="pill ${selectedCat === "all" ? "active" : ""}" data-cat="all">${escapeHtml(ui.allCats(allData.tools.length))}</button>`
       ];
       allData.categories.forEach(c => {
+        const cname = lang === "en" ? c.en_name : c.name;
         buttons.push(
-          `<button class="pill ${selectedCat === c.id ? "active" : ""}" data-cat="${c.id}">${c.icon} ${escapeHtml(c.name)} (${catCounts[c.id] || 0})</button>`
+          `<button class="pill ${selectedCat === c.id ? "active" : ""}" data-cat="${c.id}">${c.icon} ${escapeHtml(cname)} (${catCounts[c.id] || 0})</button>`
         );
       });
       categoryFilters.innerHTML = buttons.join("");
@@ -339,6 +419,7 @@
     }
 
     function renderTools() {
+      const ui = UI[lang];
       const q = searchInput.value.trim().toLowerCase();
       const terms = q ? q.split(/\s+/) : [];
       const catMap = Object.fromEntries(allData.categories.map(c => [c.id, c]));
@@ -349,43 +430,48 @@
         if (terms.length === 0) return true;
         const haystack = [
           t.name,
+          t.name_en || "",
           t.description,
+          t.description_en || "",
           t.url,
           t.subcategory || "",
+          t.subcategory_en || "",
           t.type || "",
           catMap[t.category]?.name || "",
+          catMap[t.category]?.en_name || "",
           ...(t.tags || [])
         ].join(" ").toLowerCase();
         return terms.every(term => haystack.includes(term));
       });
 
-      resultCount.textContent = `검색 결과: ${filtered.length}개 / 전체 ${allData.tools.length}개 (업데이트: ${allData.meta.updated_at})`;
+      resultCount.textContent = ui.count(filtered.length, allData.tools.length, allData.meta.updated_at);
 
       if (filtered.length === 0) {
-        grid.innerHTML = `<div class="empty">조건에 맞는 도구를 찾지 못했습니다. 다른 키워드로 검색해 보세요.</div>`;
+        grid.innerHTML = `<div class="empty">${escapeHtml(ui.empty)}</div>`;
         return;
       }
 
       grid.innerHTML = filtered.map(t => {
-        const cat = catMap[t.category];
+        const displayName = lang === "en" ? (t.name_en || t.name) : t.name;
+        const displayDesc = lang === "en" ? (t.description_en || t.description) : t.description;
         const tagsHtml = (t.tags || []).slice(0, 4).map(tag =>
           `<span class="tag" data-tag="${escapeHtml(tag)}">#${escapeHtml(tag)}</span>`
         ).join("");
-        const wpLink = t.wp_url ? `<a href="${escapeHtml(t.wp_url)}" target="_blank" rel="noopener">가이드 ↗</a>` : "";
+        const wpLink = t.wp_url ? `<a href="${escapeHtml(t.wp_url)}" target="_blank" rel="noopener">${escapeHtml(ui.guide)}</a>` : "";
         return `
           <article class="card">
             <div>
               <div class="card-top">
-                <h2 class="card-title"><a href="${escapeHtml(t.url)}" target="_blank" rel="noopener">${escapeHtml(t.name)}</a></h2>
+                <h2 class="card-title"><a href="${escapeHtml(t.url)}" target="_blank" rel="noopener">${escapeHtml(displayName)}</a></h2>
                 <span class="type-badge">${escapeHtml(t.type || "Tool")}</span>
               </div>
-              <p class="card-desc">${escapeHtml(t.description)}</p>
+              <p class="card-desc">${escapeHtml(displayDesc)}</p>
             </div>
             <div class="card-footer">
               <div class="tags">${tagsHtml}</div>
               <div class="links">
                 ${wpLink}
-                <a href="${escapeHtml(t.url)}" target="_blank" rel="noopener">열기 ↗</a>
+                <a href="${escapeHtml(t.url)}" target="_blank" rel="noopener">${escapeHtml(ui.open)}</a>
               </div>
             </div>
           </article>
@@ -401,7 +487,16 @@
       });
     }
 
+    function setLang(nextLang) {
+      lang = nextLang;
+      localStorage.setItem("agent_toolbox_lang", lang);
+      applyLangUI();
+      renderFilters();
+      renderTools();
+    }
+
     async function init() {
+      lang = detectInitialLang();
       const res = await fetch("tools.json");
       allData = await res.json();
 
@@ -409,18 +504,13 @@
       if (params.get("cat")) selectedCat = params.get("cat");
       if (params.get("q")) searchInput.value = params.get("q");
 
-      const types = [...new Set(allData.tools.map(t => t.type).filter(Boolean))].sort();
-      types.forEach(tp => {
-        const opt = document.createElement("option");
-        opt.value = tp;
-        opt.textContent = tp;
-        typeSelect.appendChild(opt);
-      });
-
+      applyLangUI();
       renderFilters();
       renderTools();
     }
 
+    langEnBtn.addEventListener("click", () => setLang("en"));
+    langKoBtn.addEventListener("click", () => setLang("ko"));
     searchInput.addEventListener("input", renderTools);
     typeSelect.addEventListener("change", () => {
       selectedType = typeSelect.value;
@@ -434,7 +524,7 @@
     });
 
     init().catch(err => {
-      resultCount.textContent = "데이터를 불러오지 못했습니다.";
+      resultCount.textContent = "Failed to load data.";
       console.error(err);
     });
   </script>
